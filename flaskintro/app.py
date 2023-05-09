@@ -7,10 +7,14 @@ app = Flask(__name__)
 #following function, which will load the hello.html page
 @app.route("/")
 def hello_world(name=None):
-    return render_template('index.html', name=name)
+
+    #Perform some SQL
+
+    return render_template('index.html', name='Emlily')
 
 
 #Checks if scripts is executed directly from command line
 if __name__ == "__main__":
     app.run(debug=True)
+
 
