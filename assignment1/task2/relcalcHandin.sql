@@ -120,4 +120,12 @@ AND (
     )
 )
 
+k)
+-- Validate that the “type” column in Product is correct, i.e., only includes correct labels for PCs,
+-- Laptops, and Printers with the respective model number. Your query should be a closed formula
+-- that outputs the empty set if and only if the correctness is violated.
 
+(FORALL maker, model, type. Product(maker, model, type)) 
+AND (
+    
+)
