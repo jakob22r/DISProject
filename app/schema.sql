@@ -36,7 +36,7 @@ CREATE TABLE IF NOT EXISTS PreviousYearsSongs
 
 CREATE TABLE IF NOT EXISTS UpcomingYearSongs
     (title CHAR(50),
-    year INTEGER,
+	year INTEGER,
     countryName CHAR(50),
     PRIMARY KEY (title, year, countryName),
     FOREIGN KEY (title, year, countryName) REFERENCES Songs);
@@ -57,13 +57,15 @@ CREATE TABLE IF NOT EXISTS Votes
     FOREIGN KEY (title, year, countryName) REFERENCES UpcomingYearSongs);
 
 -- put this in its own file
--- \COPY Artists FROM '/Users/jakobsve/Documents/GitHub/DISProject/dataset/artists.csv' DELIMITER ',';
--- \COPY Countries (countryName) FROM '/Users/jakobsve/Documents/GitHub/DISProject/dataset/countries.csv' DELIMITER ',' CSV HEADER ENCODING 'UTF-8';
--- \COPY Songs (year, countryName, title) FROM '/Users/jakobsve/Documents/GitHub/DISProject/dataset/songs.csv' DELIMITER ',' CSV HEADER ENCODING 'UTF-8';
+\COPY Artists FROM '/Users/jakobsve/Documents/GitHub/DISProject/dataset/artists.csv' DELIMITER ',';
+\COPY Countries (countryName) FROM '/Users/jakobsve/Documents/GitHub/DISProject/dataset/countries.csv' DELIMITER ',' CSV HEADER ENCODING 'UTF-8';
+\COPY Songs (year, countryName, title) FROM '/Users/jakobsve/Documents/GitHub/DISProject/dataset/songs.csv' DELIMITER ',' CSV HEADER ENCODING 'UTF-8';
 \COPY Performs FROM '/Users/jakobsve/Documents/GitHub/DISProject/dataset/performs.csv' DELIMITER ',' CSV HEADER ENCODING 'UTF-8';
 \COPY PreviousYearsSongs FROM '/Users/jakobsve/Documents/GitHub/DISProject/dataset/previousYearsSongs.csv' DELIMITER ',' CSV HEADER ENCODING 'UTF-8';
 \COPY UpcomingYearSongs FROM '/Users/jakobsve/Documents/GitHub/DISProject/dataset/upcommingYearSongs.csv' DELIMITER ',' CSV HEADER ENCODING 'UTF-8';
 
--- yet to be made data
---COPY Users FROM '/dataset/users.csv' DELIMITER ',';
+-- yet to be tested outside pgAdmin
+-- \i users.sql
+
+--yet to be made
 --COPY Votes FROM '/dataset/votes.csv' DELIMITER ',';
