@@ -1,6 +1,7 @@
 <!-- A template such that we can use inheritance -->
 <!DOCTYPE html>
 <html lang="en">
+<<<<<<< Updated upstream
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,4 +16,20 @@
         {% block body %}{% endblock %}
     </body>
 
+=======
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %} {% endblock %}- EuroFanClub</title>
+</head>
+<body>
+    <nav>
+        <a href="{{ url_for('index') }}">Home</a>
+        <a href="{{ url_for('login') }}">Login</a>
+    </nav>
+    <hr>
+    <div class="content">
+        {% block content %} {% endblock %}
+    </div>
+</body>
+>>>>>>> Stashed changes
 </html>

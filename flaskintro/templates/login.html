@@ -1,14 +1,6 @@
-<!--Index page uses skeleton file located in base.html using Jinja syntax-->
-<!doctype html>
 {% extends 'base.html' %}
 
-
-{% block head %}
-    <title>Landing page</title>
+{% block content %}
+    <h1>{% block title %} HTML login {% endblock %}</h1>
+    <h2>Login page</h2>
 {% endblock %}
-
-{% block body %}
-    <h2>And hello to you {{name}}</h2>
-{% endblock %}
-
-
