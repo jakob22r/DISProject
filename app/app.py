@@ -1,6 +1,7 @@
 from flask import Flask
 from flask import render_template, request, url_for, redirect
 from flask_sqlalchemy import SQLAlchemy
+from queries import select_winner_songs_last10years
 import psycopg2
 from config import config
 import os
@@ -8,20 +9,6 @@ import os
 
 app = Flask(__name__)
 
-# #Using a decorator to bind root URL to a function, i.e. navigating to root page, will execute the 
-# #following function, which will load the hello.html page
-# @app.route("/")
-# def hello_world(name=None):
-
-#     #Perform some SQL
-
-#     return render_template('index.html', name='Emlily')
-
-
-#Connect to database students
-
-#Creates a new connection and returns instance of connection class
-#connection = psycopg2.connect(host="localhost", port="5432", database="students", user="postgres", password="magnarp2")
 
 
 #Function to connect to postgresql server
@@ -40,6 +27,8 @@ def connect():
     print(db_verion)
     return connection
 
+conn = connect()
+
 
 @app.route('/')
 def index():
@@ -50,6 +39,20 @@ def index():
     cur.close()
     conn.close()
     return render_template('index.html', books=books)
+
+
+@app.route('/stats')
+def stats():
+    data_tuples = select_winner_songs_last10years(conn)
+    return render_template('stats.html', books=data_tuples)
+
+@app.route('/login')
+def login():
+    return render_template('login.html')
+
+
+
+#Below code is less relevant
 
 #Define html methods
 @app.route('/create/', methods=('GET', 'POST'))

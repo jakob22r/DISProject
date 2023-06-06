@@ -1,0 +1,17 @@
+--drop view commands, if any
+
+DROP TABLE IF EXISTS Artists;
+
+DROP TABLE IF EXISTS Countries; 
+
+DROP TABLE IF EXISTS Songs;
+
+DROP TABLE IF EXISTS Performs;
+
+DROP TABLE IF EXISTS PreviousYearsSongs;
+
+DROP TABLE IF EXISTS UpcomingYearSongs;
+
+DROP TABLE IF EXISTS Users;
+
+DROP TABLE IF EXISTS Votes;

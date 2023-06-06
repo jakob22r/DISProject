@@ -1,0 +1,21 @@
+.center {
+    text-align: center;
+}
+
+.red {
+    color: red;
+}
+
+.right-container {
+    border-left: 1px dotted grey;
+}
+
+.margin-top {
+    margin-top: 10px; 
+}
+
+.full-height-row {
+    min-height: 100vh;
+    display: flex;
+    align-items: stretch;
+  }

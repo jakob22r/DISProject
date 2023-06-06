@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %} {% endblock %}- EuroFanClub</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='header.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='classes.css') }}">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body class="overflow-hidden"></body>
+    <div class="margin-top">
+        <ul>
+            <li><a href="{{ url_for('index')}}">Home</a></li>
+            <li><a href="{{ url_for('stats') }}">Stats</a></li>
+            <li><a href="vote.html">Vote</a></li>
+        </ul>
+    </div>
+    </nav>
+    <hr>
+    <div>
+        {% block content %} {% endblock %}
+    </div>
+</body>
+</html>
+

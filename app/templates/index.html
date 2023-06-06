@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+
+{% block title %}Frontpage  {% endblock %}
+
+{% block content %}
+   
+<div class="center">
+    <div class="row full-height-row">
+        <div class="col-sm-9">
+            <h1 class="red">Welcome to the EuroFanClub website</h1>
+            <h2>To enter the members section, click login</h2>
+            <br>
+            <a class="btn btn-primary" href="{{ url_for('login') }}" role="button">Login</a>
+            <br>
+            <br>
+            <a href="">Create user</a>
+        </div>
+        <div class="col-sm-3 right-container">
+                <h3>About this page</h3>
+                <p>EuroFanClub is an online community for true Eurovision fans. When logged into the community, you can view EuroVision statistics and vote for your favorite songs for the upcoming 2023 contest.</p>
+        </div>
+    </div>
+
+        
+    
+</div>
+
+{% endblock %}

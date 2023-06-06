@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+
+{% block title %}Statistics  {% endblock %}
+
+{% block content %}
+
+
+
+<div class="container">
+    <div class="row justify-content-center">
+      <div class="col-9" style="text-align: center;">
+        <h1>Statistics</h1>
+        <p>Lookup funny eurovision statistics in our database</p>
+        <br>
+        <div style="border-style: dotted;"">
+            <p>10 latests winner</p>
+            {% for book in books %}
+            <div class='book'>
+                <h3>#{{ book[0] }} - {{ book[1] }} BY {{ book[2] }}</h3>
+                <i><p>({{ book[3] }} pages)</p></i>
+                <p class='review'>{{ book[4] }}</p>
+                <i><p>Added {{ book[5] }}</p></i>
+            </div>
+            {% endfor %}
+        </div>
+        <br>
+        <div style="border-style: dotted;"">
+            <p>Songs who got 0 points in the final</p>
+        </div>
+        <br>
+        <div style="border-style: dotted;"">
+            <p>Search function, who won in year xxx</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+{% endblock %}
