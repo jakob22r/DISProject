@@ -1,53 +1,53 @@
-,to_country
-0,Switzerland
-1,Netherlands
-2,Belgium
-3,Germany
-4,France
-5,Luxembourg
-6,Italy
-14,Denmark
-18,United Kingdom
-21,Austria
-25,Sweden
-42,Monaco
-46,Norway
-63,Yugoslavia
-64,Spain
-66,Finland
-117,Portugal
-125,Ireland
-235,Malta
-257,Israel
-281,Greece
-306,Turkey
-399,Morocco
-406,Cyprus
-512,Iceland
-663,Croatia
-664,Bosnia & Herzegovina
-671,Slovenia
-675,Poland
-677,Hungary
-682,Russia
-693,Slovakia
-694,Romania
-697,Estonia
-698,Lithuania
-788,North Macedonia
-820,Latvia
-902,Ukraine
-916,Serbia & Montenegro
-921,Albania
-946,Andorra
-947,Belarus
-956,Moldova
-983,Bulgaria
-997,Armenia
-1027,Serbia
-1038,Georgia
-1062,Montenegro
-1068,Czech Republic
-1076,Azerbaijan
-1111,San Marino
-1358,Australia
+to_country
+Switzerland
+Netherlands
+Belgium
+Germany
+France
+Luxembourg
+Italy
+Denmark
+United Kingdom
+Austria
+Sweden
+Monaco
+Norway
+Yugoslavia
+Spain
+Finland
+Portugal
+Ireland
+Malta
+Israel
+Greece
+Turkey
+Morocco
+Cyprus
+Iceland
+Croatia
+Bosnia & Herzegovina
+Slovenia
+Poland
+Hungary
+Russia
+Slovakia
+Romania
+Estonia
+Lithuania
+North Macedonia
+Latvia
+Ukraine
+Serbia & Montenegro
+Albania
+Andorra
+Belarus
+Moldova
+Bulgaria
+Armenia
+Serbia
+Georgia
+Montenegro
+Czech Republic
+Azerbaijan
+San Marino
+Australia

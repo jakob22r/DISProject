@@ -32,19 +32,19 @@ conn = connect()
 
 @app.route('/')
 def index():
-    conn = connect()
-    cur = conn.cursor()
-    cur.execute('SELECT * FROM books;')
-    books = cur.fetchall()
-    cur.close()
-    conn.close()
-    return render_template('index.html', books=books)
+    #conn = connect()
+    # cur = conn.cursor()
+    # cur.execute('SELECT * FROM books;')
+    # tuples_lst = cur.fetchall()
+    # cur.close()
+    # conn.close()
+    return render_template('index.html')
 
 
 @app.route('/stats')
 def stats():
-    data_tuples = select_winner_songs_last10years(conn)
-    return render_template('stats.html', books=data_tuples)
+    data_tuples, len = select_winner_songs_last10years(conn)
+    return render_template('stats.html', tups=data_tuples)
 
 @app.route('/login')
 def login():

@@ -1,7 +1,7 @@
 \i schema_drop.sql
 
 CREATE TABLE IF NOT EXISTS Artists
-    (artistName CHAR(50),
+    (artistName CHAR(100),
     PRIMARY KEY (artistName));
 
 CREATE TABLE IF NOT EXISTS Countries
@@ -9,38 +9,37 @@ CREATE TABLE IF NOT EXISTS Countries
     PRIMARY KEY (countryName));  
 
 CREATE TABLE IF NOT EXISTS Songs
-    (title CHAR(50),
-    year INTEGER,
+    (year INTEGER,
     countryName CHAR(50) NOT NULL,
-    PRIMARY KEY (title, year, countryName),
+    title CHAR(50),
+    PRIMARY KEY (year, countryName, title),
     FOREIGN KEY (countryName) REFERENCES Countries
     ON DELETE NO ACTION);
 
 CREATE TABLE IF NOT EXISTS Performs
-    (artistName CHAR(50),
-    title CHAR(50),
+    (artistName CHAR(100),
     year INTEGER,
-    PRIMARY KEY (artistName, title, year),
+    title CHAR(50),
+    countryName CHAR(50),
+    PRIMARY KEY (artistName, title, year, countryName),
     FOREIGN KEY (artistName) REFERENCES Artists,
-    FOREIGN KEY (title, year) REFERENCES Songs);
+    FOREIGN KEY (title, year, countryName) REFERENCES Songs);
 
 CREATE TABLE IF NOT EXISTS PreviousYearsSongs
     (title CHAR(50),
     year INTEGER,
+    placingInFinal INTEGER DEFAULT NULL,
+    pointsInFinal INTEGER DEFAULT NULL,
     countryName CHAR(50),
-    placing INTEGER,
-    points INTEGER,
-    PRIMARY KEY (title, year, countryName, placing),
-    FOREIGN KEY (title, year) REFERENCES Songs,
-    FOREIGN KEY (countryName) REFERENCES Countries);
+    PRIMARY KEY (title, year, countryName, placingInFinal),
+    FOREIGN KEY (title, year, countryName) REFERENCES Songs);
 
 CREATE TABLE IF NOT EXISTS UpcomingYearSongs
     (title CHAR(50),
     year INTEGER,
     countryName CHAR(50),
     PRIMARY KEY (title, year, countryName),
-    FOREIGN KEY (title, year) REFERENCES Songs,
-    FOREIGN KEY (countryName) REFERENCES Countries);
+    FOREIGN KEY (title, year, countryName) REFERENCES Songs);
 
 CREATE TABLE IF NOT EXISTS Users
     (password CHAR(50),
@@ -57,12 +56,13 @@ CREATE TABLE IF NOT EXISTS Votes
     FOREIGN KEY (userID) REFERENCES Users,
     FOREIGN KEY (title, year, countryName) REFERENCES UpcomingYearSongs);
 
-COPY Artists FROM '/dataset/artists.csv' DELIMITER ',';
-COPY Countries FROM '/dataset/countries.csv' DELIMITER ',';
-COPY Songs FROM '/dataset/songs.csv' DELIMITER ',';
-COPY Performs FROM '/dataset/performs.csv' DELIMITER ',';
-COPY PreviousYearsSongs FROM '/dataset/previousYearsSongs.csv' DELIMITER ',';
-COPY UpcomingYearSongs FROM '/dataset/upcomingYearSongs.csv' DELIMITER ',';
+-- put this in its own file
+\COPY Artists FROM '/Users/jakobsve/Documents/GitHub/DISProject/dataset/artists.csv' DELIMITER ',';
+\COPY Countries (countryName) FROM '/Users/jakobsve/Documents/GitHub/DISProject/dataset/countries.csv' DELIMITER ',' CSV HEADER ENCODING 'UTF-8';
+\COPY Songs (year, countryName, title) FROM '/Users/jakobsve/Documents/GitHub/DISProject/dataset/songs.csv' DELIMITER ',' CSV HEADER ENCODING 'UTF-8';
+\COPY Performs FROM '/Users/jakobsve/Documents/GitHub/DISProject/dataset/performs.csv' DELIMITER ',' CSV HEADER ENCODING 'UTF-8';
+\COPY PreviousYearsSongs FROM '/Users/jakobsve/Documents/GitHub/DISProject/dataset/previousYearsSongs.csv' DELIMITER ',' CSV HEADER ENCODING 'UTF-8';
+\COPY UpcomingYearSongs FROM '/Users/jakobsve/Documents/GitHub/DISProject/dataset/upcommingYearSongs.csv' DELIMITER ',' CSV HEADER ENCODING 'UTF-8';
 
 -- yet to be made data
 --COPY Users FROM '/dataset/users.csv' DELIMITER ',';

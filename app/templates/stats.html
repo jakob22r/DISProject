@@ -13,13 +13,11 @@
         <p>Lookup funny eurovision statistics in our database</p>
         <br>
         <div style="border-style: dotted;"">
-            <p>10 latests winner</p>
-            {% for book in books %}
-            <div class='book'>
-                <h3>#{{ book[0] }} - {{ book[1] }} BY {{ book[2] }}</h3>
-                <i><p>({{ book[3] }} pages)</p></i>
-                <p class='review'>{{ book[4] }}</p>
-                <i><p>Added {{ book[5] }}</p></i>
+            <h3><b>10 latests winner</b></h3>
+            <p><b>Year | Country | Song Title</b></p>
+            {% for tuple in tups %}
+            <div>
+                <p>{{ tuple }}</p>
             </div>
             {% endfor %}
         </div>
