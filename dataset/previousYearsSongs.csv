@@ -1,0 +1,1604 @@
+,year,to_country,song,place_final,points_final
+0,1956,Switzerland,Refrain,2.0,
+1,1956,Netherlands,De Vogels Van Holland,2.0,
+2,1956,Belgium,Messieurs Les Noyés De La Seine,2.0,
+3,1956,Germany,Im Wartesaal Zum Großen Glück,2.0,
+4,1956,France,Le Temps Perdu,2.0,
+5,1956,Luxembourg,Ne Crois Pas,2.0,
+6,1956,Italy,Aprite Le Finestre,2.0,
+7,1956,Netherlands,Voorgoed Voorbij,2.0,
+8,1956,Belgium,Le Plus Beau Jour De Ma Vie,2.0,
+9,1956,Germany,So Geht Das Jede Nacht,2.0,
+10,1956,France,Il Est Là,2.0,
+11,1956,Italy,Amami Se Vuoi,2.0,
+12,1957,Netherlands,Net Als Toen,1.0,31.0
+13,1957,France,La Belle Amour,2.0,17.0
+14,1957,Denmark,Skibet Skal Sejle I Nat,3.0,10.0
+15,1957,Luxembourg,Amours Mortes (Tant De Peine),4.0,8.0
+16,1957,Germany,"Telefon, Telefon",4.0,8.0
+17,1957,Italy,Corde Della Mia Chitarra,6.0,7.0
+18,1957,United Kingdom,All,7.0,6.0
+19,1957,Belgium,Straatdeuntje,8.0,5.0
+20,1957,Switzerland,L'enfant Que J'étais,8.0,5.0
+21,1957,Austria,"Wohin, Kleines Pony",10.0,3.0
+22,1958,France,Dors Mon Amour,1.0,27.0
+23,1958,Switzerland,Giorgio,2.0,24.0
+24,1958,Italy,Nel Blu Dipinto Di Blu,3.0,13.0
+25,1958,Sweden,Lilla Stjärna,4.0,10.0
+26,1958,Belgium,Ma Petite Chatte,5.0,8.0
+27,1958,Austria,Die Ganze Welt Braucht Liebe,5.0,8.0
+28,1958,Germany,Für Zwei Groschen Musik,7.0,5.0
+29,1958,Denmark,Jeg Rev Et Blad Ud Af Min Dagbog,8.0,3.0
+30,1958,Netherlands,Heel De Wereld,9.0,1.0
+31,1958,Luxembourg,Un Grand Amour,9.0,1.0
+32,1959,Netherlands,Een Beetje,1.0,21.0
+33,1959,United Kingdom,Sing Little Birdie,2.0,16.0
+34,1959,France,"Oui, Oui, Oui, Oui",3.0,15.0
+35,1959,Switzerland,Irgendwoher,4.0,14.0
+36,1959,Denmark,"Uh, Jeg Ville Ønske Jeg Var Dig",5.0,12.0
+37,1959,Italy,Piove,6.0,9.0
+38,1959,Belgium,Hou Toch Van Mij,6.0,9.0
+39,1959,Germany,Heut' Woll'n Wir Tanzen Geh'n,8.0,5.0
+40,1959,Sweden,Augustin,9.0,4.0
+41,1959,Austria,Der K. Und K. Kalypso Aus Wien,9.0,4.0
+42,1959,Monaco,Mon Ami Pierrot,11.0,1.0
+43,1960,France,Tom Pillibi,1.0,32.0
+44,1960,United Kingdom,"Looking High, High, High",2.0,25.0
+45,1960,Monaco,Ce Soir-là,3.0,15.0
+46,1960,Norway,Voi-voi,4.0,11.0
+47,1960,Germany,"Bonne Nuit, Ma Chérie!",4.0,11.0
+48,1960,Belgium,Mon Amour Pour Toi,6.0,9.0
+49,1960,Austria,Du Hast Mich So Fasziniert,7.0,6.0
+50,1960,Switzerland,Cielo E Terra,8.0,5.0
+51,1960,Italy,Romantica,8.0,5.0
+52,1960,Sweden,Alla Andra Får Varann,10.0,4.0
+53,1960,Denmark,Det Var En Yndig Tid,10.0,4.0
+54,1960,Netherlands,Wat Een Geluk,12.0,2.0
+55,1960,Luxembourg,So Laang We's Du Do Bast,13.0,1.0
+56,1961,Luxembourg,Nous Les Amoureux,1.0,31.0
+57,1961,United Kingdom,Are You Sure?,2.0,24.0
+58,1961,Switzerland,Nous Aurons Demain,3.0,16.0
+59,1961,France,Printemps (avril Carillonne),4.0,13.0
+60,1961,Denmark,Angelique,5.0,12.0
+61,1961,Italy,Al Di Là,5.0,12.0
+62,1961,Norway,Sommer i Palma,7.0,10.0
+63,1961,Yugoslavia,Neke Davne Zvezde,8.0,9.0
+64,1961,Spain,Estando Contigo,9.0,8.0
+65,1961,Monaco,"Allons, Allons Les Enfants",10.0,6.0
+66,1961,Finland,Valoa Ikkunassa,10.0,6.0
+67,1961,Netherlands,Wat Een Dag,10.0,6.0
+68,1961,Germany,Einmal Sehen Wir Uns Wieder,13.0,3.0
+69,1961,Sweden,"April, April",14.0,2.0
+70,1961,Austria,Sehnsucht,15.0,1.0
+71,1961,Belgium,"September, Gouden Roos",15.0,1.0
+72,1962,France,Un Premier Amour,1.0,26.0
+73,1962,Monaco,Dis Rien,2.0,13.0
+74,1962,Luxembourg,Petit Bonhomme,3.0,11.0
+75,1962,Yugoslavia,Ne Pali Svetlo U Sumrak,4.0,10.0
+76,1962,United Kingdom,Ring-a-ding Girl,4.0,10.0
+77,1962,Germany,Zwei Kleine Italiener,6.0,9.0
+78,1962,Finland,Tipi-tii,7.0,4.0
+79,1962,Sweden,Sol Och Vår,7.0,4.0
+80,1962,Italy,"Addio, Addio",9.0,3.0
+81,1962,Denmark,Vuggevise,10.0,2.0
+82,1962,Norway,"Kom Sol, Kom Regn",10.0,2.0
+83,1962,Switzerland,Le Retour,10.0,2.0
+84,1962,Belgium,Ton Nom,13.0,0.0
+85,1962,Spain,Llámame,13.0,0.0
+86,1962,Austria,Nur In Der Wiener Luft,13.0,0.0
+87,1962,Netherlands,Katinka,13.0,0.0
+88,1963,Denmark,Dansevise,1.0,42.0
+89,1963,Switzerland,T'en Va Pas,2.0,40.0
+90,1963,Italy,Uno Per Tutte,3.0,37.0
+91,1963,United Kingdom,Say Wonderful Things,4.0,28.0
+92,1963,France,Elle était Si Jolie,5.0,25.0
+93,1963,Monaco,L'amour S'en Va,5.0,25.0
+94,1963,Austria,Vielleicht Geschieht Ein Wunder,7.0,16.0
+95,1963,Luxembourg,A Force De Prier,8.0,13.0
+96,1963,Germany,Marcel,9.0,5.0
+97,1963,Belgium,Waarom,10.0,4.0
+98,1963,Yugoslavia,Brodovi,11.0,3.0
+99,1963,Spain,Algo Prodigioso,12.0,2.0
+100,1963,Netherlands,Een Speeldoos,13.0,0.0
+101,1963,Norway,Solhverv,13.0,0.0
+102,1963,Finland,Muistojeni Laulu,13.0,0.0
+103,1963,Sweden,En Gång I Stockholm,13.0,0.0
+104,1964,Italy,Non Ho L'étà,1.0,49.0
+105,1964,United Kingdom,I Love The Little Things,2.0,17.0
+106,1964,Monaco,Où Sont-elles Passées?,3.0,15.0
+107,1964,Luxembourg,Dès Que Le Printemps Revient,4.0,14.0
+108,1964,France,Le Chant De Mallory,4.0,14.0
+109,1964,Austria,"Warum Nur, Warum?",6.0,11.0
+110,1964,Finland,Laiskotellen,7.0,9.0
+111,1964,Norway,Spiral,8.0,6.0
+112,1964,Denmark,Sangen Om Dig,9.0,4.0
+113,1964,Netherlands,Jij Bent Mijn Leven,10.0,2.0
+114,1964,Belgium,Près De Ma Rivière,10.0,2.0
+115,1964,Spain,Caracola,12.0,1.0
+116,1964,Germany,Man Gewöhnt Sich So Schnell An Das Schöne,13.0,0.0
+117,1964,Portugal,Oração,13.0,0.0
+118,1964,Yugoslavia,Život je sklopio krug,13.0,0.0
+119,1964,Switzerland,I Miei Pensieri,13.0,0.0
+120,1965,Luxembourg,"Poupée De Cire, Poupée De Son",1.0,32.0
+121,1965,United Kingdom,I Belong,2.0,26.0
+122,1965,France,N'avoue Jamais,3.0,22.0
+123,1965,Austria,"Sag Ihr, Ich Lass' Sie Grüßen",4.0,16.0
+124,1965,Italy,"Se Piangi, Se Ridi",5.0,15.0
+125,1965,Ireland,I'm Walking The Streets In The Rain,6.0,11.0
+126,1965,Denmark,For Din Skyld,7.0,10.0
+127,1965,Switzerland,Non à Jamais Sans Toi,8.0,8.0
+128,1965,Monaco,Va Dire à L'amour,9.0,7.0
+129,1965,Sweden,Absent Friend,10.0,6.0
+130,1965,Netherlands,Het Is Genoeg,11.0,5.0
+131,1965,Yugoslavia,Ceznja,12.0,2.0
+132,1965,Norway,Karusell,13.0,1.0
+133,1965,Portugal,Sol De Inverno,13.0,1.0
+134,1965,Spain,"Qué Bueno, Qué Bueno",15.0,0.0
+135,1965,Germany,"Paradies, Wo Bist Du?",15.0,0.0
+136,1965,Belgium,Als Het Weer Lente Is,15.0,0.0
+137,1965,Finland,Aurinko Laskee Länteen,15.0,0.0
+138,1966,Austria,Merci Chérie,1.0,31.0
+139,1966,Sweden,Nygammal Vals,2.0,16.0
+140,1966,Norway,Intet Er Nytt Under Solen,3.0,15.0
+141,1966,Belgium,"Un Peu De Poivre, Un Peu De Sel",4.0,14.0
+142,1966,Ireland,Come Back To Stay,4.0,14.0
+143,1966,Switzerland,Ne Vois-tu Pas?,6.0,12.0
+144,1966,Yugoslavia,Brez Besed,7.0,9.0
+145,1966,Spain,Yo Soy Aquél,7.0,9.0
+146,1966,United Kingdom,A Man Without Love,9.0,8.0
+147,1966,Germany,Die Zeiger Der Uhr,10.0,7.0
+148,1966,Luxembourg,Ce Soir Je T'attendais,10.0,7.0
+149,1966,Finland,Play-boy,10.0,7.0
+150,1966,Portugal,Ele E Ela,13.0,6.0
+151,1966,Denmark,"Stop, Ja Stop - Ja Stop, Mens Legen Er Go",14.0,4.0
+152,1966,Netherlands,Fernando En Philippo,15.0,2.0
+153,1966,France,Chez Nous,16.0,1.0
+154,1966,Monaco,Bien Plus Fort,17.0,0.0
+155,1966,Italy,Dio Come Ti Amo,17.0,0.0
+156,1967,United Kingdom,Puppet On A String,1.0,47.0
+157,1967,Ireland,If I Could Choose,2.0,22.0
+158,1967,France,Il Doit Faire Beau Là-bas,3.0,20.0
+159,1967,Luxembourg,L'amour Est Bleu,4.0,17.0
+160,1967,Monaco,Boum-badaboum,5.0,10.0
+161,1967,Spain,Hablemos Del Amor,6.0,9.0
+162,1967,Belgium,Ik Heb Zorgen,7.0,8.0
+163,1967,Sweden,Som En Dröm,8.0,7.0
+164,1967,Germany,Anouschka,8.0,7.0
+165,1967,Yugoslavia,Vse Rože Sveta,8.0,7.0
+166,1967,Italy,Non Andare Più Lontano,11.0,4.0
+167,1967,Portugal,O Vento Mudou,12.0,3.0
+168,1967,Finland,Varjoon-suojaan,12.0,3.0
+169,1967,Netherlands,Ring-dinge,14.0,2.0
+170,1967,Austria,Warum Es Hunderttausend Sterne Gibt,14.0,2.0
+171,1967,Norway,Dukkemann,14.0,2.0
+172,1967,Switzerland,Quel Cœur Vas-tu Briser?,17.0,0.0
+173,1968,Spain,"La, La, La...",1.0,29.0
+174,1968,United Kingdom,Congratulations,2.0,28.0
+175,1968,France,La Source,3.0,20.0
+176,1968,Ireland,Chance Of A Lifetime,4.0,18.0
+177,1968,Sweden,"Det Börjar Verka Kärlek, Banne Mej",5.0,15.0
+178,1968,Germany,Ein Hoch Der Liebe,6.0,11.0
+179,1968,Belgium,Quand Tu Reviendras,7.0,8.0
+180,1968,Monaco,A Chacun Sa Chanson,7.0,8.0
+181,1968,Yugoslavia,Jedan Dan,7.0,8.0
+182,1968,Italy,Marianne,10.0,7.0
+183,1968,Portugal,Verão,11.0,5.0
+184,1968,Luxembourg,Nous Vivrons D'amour,11.0,5.0
+185,1968,Austria,Tausend Fenster,13.0,2.0
+186,1968,Switzerland,Guardando Il Sole,13.0,2.0
+187,1968,Norway,Stress,13.0,2.0
+188,1968,Netherlands,Morgen,16.0,1.0
+189,1968,Finland,Kun Kello Käy,16.0,1.0
+190,1969,Spain,Vivo Cantando,1.0,18.0
+191,1969,United Kingdom,Boom Bang-a-bang,1.0,18.0
+192,1969,Netherlands,De Troubadour,1.0,18.0
+193,1969,France,"Un Jour, Un Enfant",1.0,18.0
+194,1969,Switzerland,"Bonjour, Bonjour",5.0,13.0
+195,1969,Monaco,"Maman, Maman",6.0,11.0
+196,1969,Ireland,The Wages Of Love,7.0,10.0
+197,1969,Belgium,Jennifer Jennings,7.0,10.0
+198,1969,Sweden,"Judy, Min Vän",9.0,8.0
+199,1969,Germany,Primaballerina,9.0,8.0
+200,1969,Luxembourg,Cathérine,11.0,7.0
+201,1969,Finland,Kuin Silloin Ennen,12.0,6.0
+202,1969,Yugoslavia,Pozdrav Svijetu,13.0,5.0
+203,1969,Italy,Due Grosse Lacrime Bianche,13.0,5.0
+204,1969,Portugal,Desfolhada Portuguesa,15.0,4.0
+205,1969,Norway,"Oj, Oj, Oj, Så Glad, Jeg Skal Bli",16.0,1.0
+206,1970,Ireland,All Kinds Of Everything,1.0,32.0
+207,1970,United Kingdom,"Knock, Knock (who's there?)",2.0,26.0
+208,1970,Germany,Wunder Gibt Es Immer Wieder,3.0,12.0
+209,1970,Switzerland,Retour,4.0,8.0
+210,1970,France,Marie Blanche,4.0,8.0
+211,1970,Spain,Gwendolyne,4.0,8.0
+212,1970,Netherlands,Waterman,7.0,7.0
+213,1970,Italy,Occhi Di Ragazza,8.0,5.0
+214,1970,Belgium,Viens L'oublier,8.0,5.0
+215,1970,Monaco,Marlène,8.0,5.0
+216,1970,Yugoslavia,"Pridi, Dala Ti Bom Cvet",11.0,4.0
+217,1970,Luxembourg,Je Suis Tombé Du Ciel,12.0,0.0
+218,1971,Monaco,"Un Banc, Un Arbre, Une Rue",1.0,128.0
+219,1971,Spain,En Un Mundo Nuevo,2.0,116.0
+220,1971,Germany,Diese Welt,3.0,100.0
+221,1971,United Kingdom,Jack In The Box,4.0,98.0
+222,1971,Italy,L'amore è Un Attimo,5.0,91.0
+223,1971,Sweden,Vita Vidder,6.0,85.0
+224,1971,Netherlands,De Tijd,6.0,85.0
+225,1971,Finland,Tie Uuteen Päivään,8.0,84.0
+226,1971,Portugal,Menina Do Alto Da Serra,9.0,83.0
+227,1971,France,Un Jardin Sur La Terre,10.0,82.0
+228,1971,Ireland,One Day Love,11.0,79.0
+229,1971,Switzerland,Les Illusions De Nos Vingt Ans,12.0,78.0
+230,1971,Luxembourg,"Pomme, Pomme, Pomme",13.0,70.0
+231,1971,Belgium,"Goeie Morgen, Morgen",14.0,68.0
+232,1971,Yugoslavia,Tvoj Djecak Je Tuzan,14.0,68.0
+233,1971,Austria,Musik,16.0,66.0
+234,1971,Norway,Lykken Er...,17.0,65.0
+235,1971,Malta,Marija L-Maltija,18.0,52.0
+236,1972,Luxembourg,Après Toi,1.0,128.0
+237,1972,United Kingdom,"Beg, Steal Or Borrow",2.0,114.0
+238,1972,Germany,Nur Die Liebe Läßt Uns Leben,3.0,107.0
+239,1972,Netherlands,Als Het Om De Liefde Gaat,4.0,106.0
+240,1972,Austria,Falter Im Wind,5.0,100.0
+241,1972,Italy,I Giorni Dell' Arcobaleno,6.0,92.0
+242,1972,Portugal,A Festa Da Vida,7.0,90.0
+243,1972,Switzerland,C'est La Chanson De Mon Amour,8.0,88.0
+244,1972,Yugoslavia,Muzika I Ti,9.0,87.0
+245,1972,Spain,Amanece,10.0,83.0
+246,1972,France,Comé-comédie,11.0,81.0
+247,1972,Finland,Muistathan,12.0,78.0
+248,1972,Sweden,Härliga Sommardag,13.0,75.0
+249,1972,Norway,Småting,14.0,73.0
+250,1972,Ireland,Ceol On Ghrá,15.0,72.0
+251,1972,Monaco,Comme On S'aime,16.0,65.0
+252,1972,Belgium,À La Folie Ou Pas Du Tout,17.0,55.0
+253,1972,Malta,L-imħabba,18.0,48.0
+254,1973,Luxembourg,Tu Te Reconnaîtras,1.0,129.0
+255,1973,Spain,Eres Tú,2.0,125.0
+256,1973,United Kingdom,Power To All Our Friends,3.0,123.0
+257,1973,Israel,Ey-sham,4.0,97.0
+258,1973,Sweden,You're Summer,5.0,94.0
+259,1973,Finland,Tom Tom Tom,6.0,93.0
+260,1973,Norway,It's Just A Game,7.0,89.0
+261,1973,Germany,Junger Tag,8.0,85.0
+262,1973,Monaco,Un Train Qui Part,8.0,85.0
+263,1973,Portugal,Tourada,10.0,80.0
+264,1973,Ireland,Do I Dream?,10.0,80.0
+265,1973,Switzerland,"Je Me Vais Marier, Marie",12.0,79.0
+266,1973,Italy,Chi Sarà Con Te,13.0,74.0
+267,1973,Netherlands,De Oude Muzikant,14.0,69.0
+268,1973,Yugoslavia,Gori Vatra,15.0,65.0
+269,1973,France,Sans Toi,15.0,65.0
+270,1973,Belgium,"Baby, Baby",17.0,58.0
+271,1974,Sweden,Waterloo,1.0,24.0
+272,1974,Italy,Si,2.0,18.0
+273,1974,Netherlands,I See A Star,3.0,15.0
+274,1974,United Kingdom,Long Live Love,4.0,14.0
+275,1974,Luxembourg,"Bye, Bye, I Love You",4.0,14.0
+276,1974,Monaco,Celui Qui Reste Et Celui Qui S'en Va,4.0,14.0
+277,1974,Israel,Natati La Khayay,7.0,11.0
+278,1974,Ireland,Cross Your Heart,7.0,11.0
+279,1974,Spain,Canta Y Se Feliz,9.0,10.0
+280,1974,Belgium,Fleur De Liberté,9.0,10.0
+281,1974,Greece,"Krassi, Thalassa Ke T'agori Mou",11.0,7.0
+282,1974,Yugoslavia,Moja Generacija,12.0,6.0
+283,1974,Finland,Äla Mene Pois (keep Me Warm),13.0,4.0
+284,1974,Norway,The First Day Of Love,14.0,3.0
+285,1974,Germany,Die Sommermelodie,14.0,3.0
+286,1974,Switzerland,Mein Ruf Nach Dir,14.0,3.0
+287,1974,Portugal,E Depois Do Adeus,14.0,3.0
+288,1975,Netherlands,Ding-A-Dong,1.0,152.0
+289,1975,United Kingdom,Let Me Be The One,2.0,138.0
+290,1975,Italy,Era,3.0,115.0
+291,1975,France,Et Bonjour à Toi L'artiste,4.0,91.0
+292,1975,Luxembourg,Toi,5.0,84.0
+293,1975,Switzerland,Mikado,6.0,77.0
+294,1975,Finland,Old Man Fiddle,7.0,74.0
+295,1975,Sweden,"Jennie, Jennie",8.0,72.0
+296,1975,Ireland,That's What Friends Are For,9.0,68.0
+297,1975,Spain,Tú Volverás,10.0,53.0
+298,1975,Israel,At Va'Ani,11.0,40.0
+299,1975,Malta,Singing This Song,12.0,32.0
+300,1975,Yugoslavia,Dan Ljubezni,13.0,22.0
+301,1975,Monaco,Une Chanson C'est Une Lettre,13.0,22.0
+302,1975,Belgium,Gelukkig Zijn,15.0,17.0
+303,1975,Portugal,Madrugada,16.0,16.0
+304,1975,Germany,Ein Lied Kann Eine Brücke Sein,17.0,15.0
+305,1975,Norway,You Touched My Life With Summer,18.0,11.0
+306,1975,Turkey,Seninle Bir Dakika,19.0,3.0
+307,1976,United Kingdom,Save Your Kisses For Me,1.0,164.0
+308,1976,France,"Un, Deux, Trois",2.0,147.0
+309,1976,Monaco,"Toi, La Musique Et Moi",3.0,93.0
+310,1976,Switzerland,"Djambo, Djambo",4.0,91.0
+311,1976,Austria,My Little World,5.0,80.0
+312,1976,Israel,Emor Shalom,6.0,77.0
+313,1976,Italy,We'll Live It All Again,7.0,69.0
+314,1976,Belgium,Judy Et Cie.,8.0,68.0
+315,1976,Netherlands,The Party's Over Now,9.0,56.0
+316,1976,Ireland,When,10.0,54.0
+317,1976,Finland,Pump-pump,11.0,44.0
+318,1976,Portugal,Uma Flor De Verde Pinho,12.0,24.0
+319,1976,Greece,"Panaghia Mou, Panaghia Mou",13.0,20.0
+320,1976,Luxembourg,Chansons Pour Ceux Qui S'aiment,14.0,17.0
+321,1976,Germany,"Sing, Sang, Song",15.0,12.0
+322,1976,Spain,Sobran Las Palabras,16.0,11.0
+323,1976,Yugoslavia,Ne Mogu Skriti Svoju Bol,17.0,10.0
+324,1976,Norway,Mata Hari,18.0,7.0
+325,1977,France,L'oiseau Et L'enfant,1.0,136.0
+326,1977,United Kingdom,Rock Bottom,2.0,121.0
+327,1977,Ireland,It's Nice To Be In Love Again,3.0,119.0
+328,1977,Monaco,Une Petite Française,4.0,96.0
+329,1977,Greece,Mathima Solfez,5.0,92.0
+330,1977,Switzerland,Swiss Lady,6.0,71.0
+331,1977,Belgium,"A Million In One, Two, Three",7.0,69.0
+332,1977,Germany,Telegram,8.0,55.0
+333,1977,Spain,Enseñame A Cantar,9.0,52.0
+334,1977,Finland,Lapponia,10.0,50.0
+335,1977,Israel,Ah-haa-vah Hee Shir Lish-naa-yim,11.0,49.0
+336,1977,Netherlands,De Mallemolen,12.0,35.0
+337,1977,Italy,Liberà,13.0,33.0
+338,1977,Norway,Casanova,14.0,18.0
+339,1977,Portugal,Portugal No Coração,14.0,18.0
+340,1977,Luxembourg,Frère Jacques,16.0,17.0
+341,1977,Austria,Boom Boom Boomerang,17.0,11.0
+342,1977,Sweden,Beatles,18.0,2.0
+343,1978,Israel,A-Ba-Ni-Bi,1.0,157.0
+344,1978,Belgium,L'amour ça Fait Chanter La Vie,2.0,125.0
+345,1978,France,Il Y Aura Toujours Des Violons,3.0,119.0
+346,1978,Monaco,Les Jardins De Monaco,4.0,107.0
+347,1978,Ireland,Born To Sing,5.0,86.0
+348,1978,Germany,Feuer,6.0,84.0
+349,1978,Luxembourg,Parlez-vous Français?,7.0,73.0
+350,1978,Greece,Charlie Chaplin,8.0,66.0
+351,1978,Spain,Bailemos Un Vals,9.0,65.0
+352,1978,Switzerland,Vivre,9.0,65.0
+353,1978,United Kingdom,The Bad Old Days,11.0,61.0
+354,1978,Italy,Questo Amore,12.0,53.0
+355,1978,Netherlands,'t Is Ok,13.0,37.0
+356,1978,Sweden,Det Blir Alltid Värre Framåt Natten,14.0,26.0
+357,1978,Austria,Mrs. Caroline Robinson,15.0,14.0
+358,1978,Denmark,Boom Boom,16.0,13.0
+359,1978,Portugal,Dai-li-dou,17.0,5.0
+360,1978,Finland,Anna Rakkaudelle Tilaisuus,18.0,2.0
+361,1978,Turkey,Sevince,18.0,2.0
+362,1978,Norway,Mil Etter Mil,20.0,0.0
+363,1979,Israel,Hallelujah,1.0,125.0
+364,1979,Spain,Su Canción,2.0,116.0
+365,1979,France,Je Suis L'enfant-soleil,3.0,106.0
+366,1979,Germany,,4.0,86.0
+367,1979,Ireland,Happy Man,5.0,80.0
+368,1979,Denmark,Disco Tango,6.0,76.0
+369,1979,United Kingdom,Mary Ann,7.0,73.0
+370,1979,Greece,Socrati,8.0,69.0
+371,1979,Portugal,"Sobe, Sobe, Balão Sobe",9.0,64.0
+372,1979,Switzerland,Trödler Und Co.,10.0,60.0
+373,1979,Norway,Oliver,11.0,57.0
+374,1979,Netherlands,Colorado,12.0,51.0
+375,1979,Luxembourg,J'ai Déjà Vu ça Dans Tes Yeux,13.0,44.0
+376,1979,Finland,Katson Sineen Taivaan,14.0,38.0
+377,1979,Italy,Raggio Di Luna,15.0,27.0
+378,1979,Monaco,"Notre Vie, C'est La Musique",16.0,12.0
+379,1979,Sweden,Satellit,17.0,8.0
+380,1979,Belgium,Hey Nana,18.0,5.0
+381,1979,Austria,Heute In Jerusalem,18.0,5.0
+382,1980,Ireland,What's Another Year,1.0,143.0
+383,1980,Germany,Theater,2.0,128.0
+384,1980,United Kingdom,Love Enough For Two,3.0,106.0
+385,1980,Switzerland,Cinéma,4.0,104.0
+386,1980,Netherlands,Amsterdam,5.0,93.0
+387,1980,Italy,Non So Che Darei,6.0,87.0
+388,1980,Portugal,"Um Grande, Grande Amor",7.0,71.0
+389,1980,Austria,Du Bist Musik,8.0,64.0
+390,1980,Luxembourg,Papa Pingouin,9.0,56.0
+391,1980,Sweden,Just Nu!,10.0,47.0
+392,1980,France,"Hé, Hé M'sieurs Dames",11.0,45.0
+393,1980,Spain,Quédate Esta Noche,12.0,38.0
+394,1980,Greece,Otostop,13.0,30.0
+395,1980,Denmark,Tænker Altid På Dig,14.0,25.0
+396,1980,Turkey,Petr'oil,15.0,23.0
+397,1980,Norway,Sámiid Ædnan,16.0,15.0
+398,1980,Belgium,Euro-vision,17.0,14.0
+399,1980,Morocco,Bitakat Hob,18.0,7.0
+400,1980,Finland,Huilumies,19.0,6.0
+401,1981,United Kingdom,Making Your Mind Up,1.0,136.0
+402,1981,Germany,Johnny Blue,2.0,132.0
+403,1981,France,Humanahum,3.0,125.0
+404,1981,Switzerland,Io Senza Tei,4.0,121.0
+405,1981,Ireland,Horoscopes,5.0,105.0
+406,1981,Cyprus,Monika,6.0,69.0
+407,1981,Israel,Halaylah,7.0,56.0
+408,1981,Greece,Feggari Kalokerino,8.0,55.0
+409,1981,Netherlands,Het Is Een Wonder,9.0,51.0
+410,1981,Sweden,Fångad I En Dröm,10.0,50.0
+411,1981,Luxembourg,C'est Peut-être Pas L'Amérique,11.0,41.0
+412,1981,Denmark,Krøller Eller Ej,11.0,41.0
+413,1981,Belgium,Samson,13.0,40.0
+414,1981,Spain,Y Solo Tú,14.0,38.0
+415,1981,Yugoslavia,Leila,15.0,35.0
+416,1981,Finland,Reggae O.k.,16.0,27.0
+417,1981,Austria,Wenn Du Da Bist,17.0,20.0
+418,1981,Turkey,Dönme Dolap,18.0,9.0
+419,1981,Portugal,Play-back,18.0,9.0
+420,1981,Norway,Aldri i Livet,20.0,0.0
+421,1982,Germany,Ein Bißchen Frieden,1.0,161.0
+422,1982,Israel,Hora,2.0,100.0
+423,1982,Switzerland,Amour On T'aime,3.0,97.0
+424,1982,Belgium,Si Tu Aimes Ma Musique,4.0,96.0
+425,1982,Cyprus,Mono I Agapi,5.0,85.0
+426,1982,Luxembourg,Cour Apres Le Temps,6.0,78.0
+427,1982,United Kingdom,One Step Further,7.0,76.0
+428,1982,Sweden,Dag Efter Dag,8.0,67.0
+429,1982,Austria,Sonntag,9.0,57.0
+430,1982,Spain,Él,10.0,52.0
+431,1982,Ireland,"Here Today, Gone Tomorrow",11.0,49.0
+432,1982,Norway,Adieu,12.0,40.0
+433,1982,Portugal,Bem-bom,13.0,32.0
+434,1982,Yugoslavia,Halo Halo,14.0,21.0
+435,1982,Turkey,Hani,15.0,20.0
+436,1982,Netherlands,Jij En Ik,16.0,8.0
+437,1982,Denmark,Video-video,17.0,5.0
+438,1982,Finland,Nuku Pommiin,18.0,0.0
+439,1983,Luxembourg,Si La Vie Est Cadeau,1.0,142.0
+440,1983,Israel,Hi,2.0,136.0
+441,1983,Sweden,Främling,3.0,126.0
+442,1983,Yugoslavia,Dzuli,4.0,125.0
+443,1983,Germany,Rücksicht,5.0,94.0
+444,1983,United Kingdom,I'm Never Giving Up,6.0,79.0
+445,1983,Netherlands,Sing Me A Song,7.0,66.0
+446,1983,France,Vivre,8.0,56.0
+447,1983,Norway,Do Re Mi,9.0,53.0
+448,1983,Austria,Hurricane,9.0,53.0
+449,1983,Italy,Per Lucia,11.0,41.0
+450,1983,Finland,Fantasiaa,11.0,41.0
+451,1983,Portugal,Esta Balada Que Te Dou,13.0,33.0
+452,1983,Greece,Mou Les,14.0,32.0
+453,1983,Switzerland,Io Così Non Ci Sto,15.0,28.0
+454,1983,Cyprus,I Agapi Akoma Zi,16.0,26.0
+455,1983,Denmark,Kloden Drejer,17.0,16.0
+456,1983,Belgium,Rendez-vous,18.0,13.0
+457,1983,Turkey,Opera,19.0,0.0
+458,1983,Spain,¿Quién Maneja Mi Barca?,19.0,0.0
+459,1984,Sweden,Diggi-loo Diggy-ley,1.0,145.0
+460,1984,Ireland,Terminal '3',2.0,137.0
+461,1984,Spain,"Lady, Lady",3.0,106.0
+462,1984,Denmark,Det' Lige Det,4.0,101.0
+463,1984,Belgium,Avanti La Vie,5.0,70.0
+464,1984,Italy,I Treni Di Tozeur,5.0,70.0
+465,1984,United Kingdom,Love Games,7.0,63.0
+466,1984,France,Autant D'amoureux Que D'étoiles,8.0,61.0
+467,1984,Finland,Hengaillaan,9.0,46.0
+468,1984,Luxembourg,100% D'amour,10.0,39.0
+469,1984,Portugal,Silêncio E Tanta Gente,11.0,38.0
+470,1984,Turkey,Halay,12.0,37.0
+471,1984,Netherlands,Ik Hou Van Jou,13.0,34.0
+472,1984,Germany,Aufrecht Geh'n,13.0,34.0
+473,1984,Cyprus,Anna Maria Lena,15.0,31.0
+474,1984,Switzerland,Welche Farbe Hat Der Sonnenschein,16.0,30.0
+475,1984,Norway,Lenge Leve Livet,17.0,29.0
+476,1984,Yugoslavia,Ciao Amore,18.0,26.0
+477,1984,Austria,Einfach Weg,19.0,5.0
+478,1985,Norway,La Det Swinge,1.0,123.0
+479,1985,Germany,Für Alle,2.0,105.0
+480,1985,Sweden,Bra Vibrationer,3.0,103.0
+481,1985,United Kingdom,Love Is...,4.0,100.0
+482,1985,Israel,Olé Olé,5.0,93.0
+483,1985,Ireland,Wait Until The Weekend Comes,6.0,91.0
+484,1985,Italy,"Magic, Oh Magic",7.0,78.0
+485,1985,Austria,Kinder Dieser Welt,8.0,60.0
+486,1985,Finland,Eläköön Elämä,9.0,58.0
+487,1985,France,Femme Dans Ses Rêves Aussi,10.0,56.0
+488,1985,Denmark,Sku' Du Spør Fra No'n,11.0,41.0
+489,1985,Switzerland,Piano Piano,12.0,39.0
+490,1985,Luxembourg,"Children, Kinder, Enfants",13.0,37.0
+491,1985,Spain,La Fiesta Terminó,14.0,36.0
+492,1985,Turkey,Di Dai Di Dai Dai (Aşık oldum),14.0,36.0
+493,1985,Cyprus,To Katalava Arga,16.0,15.0
+494,1985,Greece,Miazoume,16.0,15.0
+495,1985,Portugal,"Penso Em Ti, Eu Sei",18.0,9.0
+496,1985,Belgium,Laat Me Nu Gaan,19.0,7.0
+497,1986,Belgium,J'aime La Vie,1.0,176.0
+498,1986,Switzerland,Pas Pour Moi,2.0,140.0
+499,1986,Luxembourg,L'amour De Ma Vie,3.0,117.0
+500,1986,Ireland,You Can Count On Me,4.0,96.0
+501,1986,Sweden,E' De' Det Här Du Kallar Kärlek,5.0,78.0
+502,1986,Denmark,Du Er Fuld Af Løgn,6.0,77.0
+503,1986,United Kingdom,Runner In The Night,7.0,72.0
+504,1986,Germany,Über Die Brücke Geh'n,8.0,62.0
+505,1986,Turkey,Halley,9.0,53.0
+506,1986,Spain,Valentino,10.0,51.0
+507,1986,Yugoslavia,Željo Moja,11.0,49.0
+508,1986,Norway,Romeo,12.0,44.0
+509,1986,Netherlands,Alles Heeft Ritme,13.0,40.0
+510,1986,Portugal,Não Sejas Mau Para Mim,14.0,28.0
+511,1986,Finland,Päivä Kahden Ihmisen,15.0,22.0
+512,1986,Iceland,Gleðibankinn,16.0,19.0
+513,1986,France,Européennes,17.0,13.0
+514,1986,Austria,Die Zeit Ist Einsam,18.0,12.0
+515,1986,Israel,Yavoh Yom,19.0,7.0
+516,1986,Cyprus,Tora Zo,20.0,4.0
+517,1987,Ireland,Hold Me Now,1.0,172.0
+518,1987,Germany,Laß Die Sonne In Dein Herz,2.0,141.0
+519,1987,Italy,Gente Di Mare,3.0,103.0
+520,1987,Yugoslavia,Ja Sam Za Ples,4.0,92.0
+521,1987,Netherlands,Rechtop In De Wind,5.0,83.0
+522,1987,Denmark,En Lille Melodi,5.0,83.0
+523,1987,Cyprus,Aspro Mavro,7.0,80.0
+524,1987,Israel,Shir Habatlanim,8.0,73.0
+525,1987,Norway,Mitt Liv,9.0,65.0
+526,1987,Greece,Stop!,10.0,64.0
+527,1987,Belgium,Soldiers Of Love,11.0,56.0
+528,1987,Sweden,Boogaloo,12.0,50.0
+529,1987,United Kingdom,Only The Light,13.0,47.0
+530,1987,France,Les Mots D'amour N'ont Pas De Dimanche,14.0,44.0
+531,1987,Finland,Sata Salamaa,15.0,32.0
+532,1987,Iceland,Hægt Og Hljótt,16.0,28.0
+533,1987,Switzerland,Moitié Moitié,17.0,26.0
+534,1987,Portugal,Neste Barco à Vela,18.0,15.0
+535,1987,Spain,No Estás Solo,19.0,10.0
+536,1987,Austria,Nur Noch Gefühl,20.0,8.0
+537,1987,Luxembourg,Amour Amour,21.0,4.0
+538,1987,Turkey,Şarkım sevgi üstüne,22.0,0.0
+539,1988,Switzerland,Ne Partez Pas Sans Moi,1.0,137.0
+540,1988,United Kingdom,Go,2.0,136.0
+541,1988,Denmark,Ka' Du Se Hva' Jeg Sa',3.0,92.0
+542,1988,Luxembourg,Croire,4.0,90.0
+543,1988,Norway,For Vår Jord,5.0,88.0
+544,1988,Yugoslavia,Mangup,6.0,87.0
+545,1988,Israel,Ben Adam,7.0,85.0
+546,1988,Ireland,Take Him Home,8.0,79.0
+547,1988,Netherlands,Shangri-la,9.0,70.0
+548,1988,France,Chanteur De Charme,10.0,64.0
+549,1988,Spain,La Chica Que Yo Quiero (made In Spain),11.0,58.0
+550,1988,Sweden,Stad I Ljus,12.0,52.0
+551,1988,Italy,Ti Scrivo,12.0,52.0
+552,1988,Germany,Lied Für Einen Freund,14.0,48.0
+553,1988,Turkey,Sufi,15.0,37.0
+554,1988,Iceland,Sókrates,16.0,20.0
+555,1988,Greece,Kloun,17.0,10.0
+556,1988,Belgium,Laissez Briller Le Soleil,18.0,5.0
+557,1988,Portugal,Voltarei,18.0,5.0
+558,1988,Finland,Nauravat Silmät Muistetaan,20.0,3.0
+559,1988,Austria,Lisa Mona Lisa,21.0,0.0
+560,1989,Yugoslavia,Rock Me,1.0,137.0
+561,1989,United Kingdom,Why Do I Always Get It Wrong,2.0,130.0
+562,1989,Denmark,Vi Maler Byen Rød,3.0,111.0
+563,1989,Sweden,En Dag,4.0,110.0
+564,1989,Austria,Nur Ein Lied,5.0,97.0
+565,1989,Spain,Nacida Para Amar,6.0,88.0
+566,1989,Finland,La Dolce Vita,7.0,76.0
+567,1989,France,J'ai Volé La Vie,8.0,60.0
+568,1989,Italy,Avrei Voluto,9.0,56.0
+569,1989,Greece,To Diko Sou Asteri,9.0,56.0
+570,1989,Cyprus,Apopse As Vrethoume,11.0,51.0
+571,1989,Israel,Derech Ha'melech,12.0,50.0
+572,1989,Switzerland,Viver Senza Tei,13.0,47.0
+573,1989,Germany,Flieger,14.0,46.0
+574,1989,Netherlands,Blijf Zoals Je Bent,15.0,45.0
+575,1989,Portugal,Conquistador,16.0,39.0
+576,1989,Norway,Venners Nærhet,17.0,30.0
+577,1989,Ireland,The Real Me,18.0,21.0
+578,1989,Belgium,Door De Wind,19.0,13.0
+579,1989,Luxembourg,Monsieur,20.0,8.0
+580,1989,Turkey,Bana Bana,21.0,5.0
+581,1989,Iceland,Það Sem Enginn Sér,22.0,0.0
+582,1990,Italy,Insieme: 1992,1.0,149.0
+583,1990,France,White And Black Blues,2.0,132.0
+584,1990,Ireland,Somewhere In Europe,2.0,132.0
+585,1990,Iceland,Eitt Lag Enn,4.0,124.0
+586,1990,Spain,Bandido,5.0,96.0
+587,1990,United Kingdom,Give A Little Love Back To The World,6.0,87.0
+588,1990,Yugoslavia,Hajde Da Ludujemo,7.0,81.0
+589,1990,Denmark,Hallo Hallo,8.0,64.0
+590,1990,Germany,Frei Zu Leben,9.0,60.0
+591,1990,Austria,Keine Mauern Mehr,10.0,58.0
+592,1990,Switzerland,Musik Klingt In Die Welt Hinaus,11.0,51.0
+593,1990,Belgium,Macédomienne,12.0,46.0
+594,1990,Luxembourg,Quand Je Te Rêve,13.0,38.0
+595,1990,Cyprus,Milas Poli,14.0,36.0
+596,1990,Netherlands,Ik Wil Alles Met Je Delen,15.0,25.0
+597,1990,Sweden,Som En Vind,16.0,24.0
+598,1990,Turkey,Gözlerinin Hapsindeyim,17.0,21.0
+599,1990,Israel,Shara Barechovot,18.0,16.0
+600,1990,Greece,Horis Skopo,19.0,11.0
+601,1990,Portugal,Há Sempre Alguém,20.0,9.0
+602,1990,Norway,Brandenburger Tor,21.0,8.0
+603,1990,Finland,Fri?,21.0,8.0
+604,1991,Sweden,Fångad Av En Stormvind,1.0,146.0
+605,1991,France,C'est Le Dernier Qui A Parlé Qui A Raison,2.0,146.0
+606,1991,Israel,Kan,3.0,139.0
+607,1991,Spain,Bailar Pegados,4.0,119.0
+608,1991,Switzerland,Canzone Per Te,5.0,118.0
+609,1991,Malta,Could It Be,6.0,106.0
+610,1991,Italy,Comme E' Ddoce 'o Mare,7.0,89.0
+611,1991,Portugal,Lusitana Paixão,8.0,62.0
+612,1991,Cyprus,S.O.S.,9.0,60.0
+613,1991,Ireland,Could It Be That I'm In Love,10.0,47.0
+614,1991,United Kingdom,A Message To Your Heart,10.0,47.0
+615,1991,Turkey,Iki Dakika,12.0,44.0
+616,1991,Greece,I Anixi,13.0,36.0
+617,1991,Luxembourg,Un Baiser Volé,14.0,29.0
+618,1991,Iceland,Nina,15.0,26.0
+619,1991,Belgium,Geef Het Op,16.0,23.0
+620,1991,Norway,Mrs. Thompson,17.0,14.0
+621,1991,Germany,Dieser Traum Darf Niemals Sterben,18.0,10.0
+622,1991,Denmark,Lige Der Hvor Hjertet Slår,19.0,8.0
+623,1991,Finland,Hullu Yö,20.0,6.0
+624,1991,Yugoslavia,Brazil,21.0,1.0
+625,1991,Austria,Venedig Im Regen,22.0,0.0
+626,1992,Ireland,Why Me,1.0,155.0
+627,1992,United Kingdom,One Step Out Of Time,2.0,139.0
+628,1992,Malta,Little Child,3.0,123.0
+629,1992,Italy,Rapsodia,4.0,111.0
+630,1992,Greece,Olou Tou Kosmou tin Elpida,5.0,94.0
+631,1992,Israel,Ze Rak Sport,6.0,85.0
+632,1992,Iceland,Nei Eða Já,7.0,80.0
+633,1992,France,Monté La Riviè,8.0,73.0
+634,1992,Netherlands,Wijs Me De Weg,9.0,67.0
+635,1992,Austria,Zusammen Geh'n,10.0,63.0
+636,1992,Cyprus,Teriazoume,11.0,57.0
+637,1992,Denmark,Alt Det Som Ingen Ser,12.0,47.0
+638,1992,Yugoslavia,Ljubim Te Pesmama,13.0,44.0
+639,1992,Spain,Todo Esto Es La Música,14.0,37.0
+640,1992,Switzerland,Mister Music Man,15.0,32.0
+641,1992,Germany,Träume Sind Für Alle Da,16.0,27.0
+642,1992,Portugal,Amor D'água Fresca,17.0,26.0
+643,1992,Norway,Visjoner,18.0,23.0
+644,1992,Turkey,Yaz Bitti,19.0,17.0
+645,1992,Belgium,Nous On Veut Des Violons,20.0,11.0
+646,1992,Luxembourg,Sou Fräi,21.0,10.0
+647,1992,Sweden,I Morgon är En Annan Dag,22.0,9.0
+648,1992,Finland,Yamma Yamma,23.0,4.0
+649,1993,Ireland,In Your Eyes,1.0,187.0
+650,1993,United Kingdom,Better The Devil You Know,2.0,164.0
+651,1993,Switzerland,"Moi, Tout Simplement",3.0,148.0
+652,1993,France,Mama Corsica,4.0,121.0
+653,1993,Norway,Alle Mine Tankar,5.0,120.0
+654,1993,Netherlands,Vrede,6.0,92.0
+655,1993,Sweden,Eloïse,7.0,89.0
+656,1993,Malta,This Time,8.0,69.0
+657,1993,Greece,"Ellada, Hora Tou Fotos",9.0,64.0
+658,1993,Portugal,A Cidade Até Ser Dia,10.0,60.0
+659,1993,Spain,Hombres,11.0,58.0
+660,1993,Italy,Sole D'europa,12.0,45.0
+661,1993,Iceland,þá Veistu Svarið,13.0,42.0
+662,1993,Austria,Maria Magdalena,14.0,32.0
+663,1993,Croatia,Don't Ever Cry,15.0,31.0
+664,1993,Bosnia & Herzegovina,Sva Bol Svijeta,16.0,27.0
+665,1993,Finland,Tule Luo,17.0,20.0
+666,1993,Germany,Viel Zu Weit,18.0,18.0
+667,1993,Cyprus,Mi Stamatas,19.0,17.0
+668,1993,Luxembourg,Donne-moi Une Chance,20.0,11.0
+669,1993,Turkey,Esmer Yarim,21.0,10.0
+670,1993,Denmark,Under Stjernerne På Himlen,22.0,9.0
+671,1993,Slovenia,Tih Dezeven Dan,22.0,9.0
+672,1993,Israel,Shiru,24.0,4.0
+673,1993,Belgium,Iemand Als Jij,25.0,3.0
+674,1994,Ireland,Rock 'n' Roll Kids,1.0,226.0
+675,1994,Poland,To Nie Ja!,2.0,166.0
+676,1994,Germany,Wir Geben 'ne Party,3.0,128.0
+677,1994,Hungary,Kinek Mondjam El Vétkeimet,4.0,122.0
+678,1994,Malta,More Than Love,5.0,97.0
+679,1994,Norway,Duett,6.0,76.0
+680,1994,France,Je Suis Un Vrai Garçon,7.0,74.0
+681,1994,Portugal,Chamar A Música,8.0,73.0
+682,1994,Russia,Vechni Stranik,9.0,70.0
+683,1994,United Kingdom,We Will Be Free (lonely Symphony),10.0,63.0
+684,1994,Cyprus,Ime Anthropos Ke Ego,11.0,51.0
+685,1994,Iceland,Nætur,12.0,49.0
+686,1994,Sweden,Stjärnorna,13.0,48.0
+687,1994,Greece,To Trehantiri,14.0,44.0
+688,1994,Bosnia & Herzegovina,Ostani Kraj Mene,15.0,39.0
+689,1994,Croatia,Nek'ti Bude Ljubav Sva,16.0,27.0
+690,1994,Austria,Für Den Frieden Der Welt,17.0,19.0
+691,1994,Spain,Ella No Es Ella,18.0,17.0
+692,1994,Switzerland,Sto Pregando,19.0,15.0
+693,1994,Slovakia,Nekovecná Piesen,19.0,15.0
+694,1994,Romania,Dincolo De Nori,21.0,14.0
+695,1994,Finland,Bye Bye Baby,22.0,11.0
+696,1994,Netherlands,Waar Is De Zon,23.0,4.0
+697,1994,Estonia,Nagu Merelaine,24.0,2.0
+698,1994,Lithuania,Lopšinė mylimai,25.0,0.0
+699,1995,Norway,Nocturne,1.0,148.0
+700,1995,Spain,Vuelve Conmigo,2.0,119.0
+701,1995,Sweden,Se På Mej,3.0,100.0
+702,1995,France,Il Me Donne Rendez-vous,4.0,94.0
+703,1995,Denmark,Fra Mols Til Skagen,5.0,92.0
+704,1995,Croatia,Nostalgija,6.0,91.0
+705,1995,Slovenia,Prisluhni Mi,7.0,84.0
+706,1995,Israel,Amen,8.0,81.0
+707,1995,Cyprus,Sti Fotia,9.0,79.0
+708,1995,United Kingdom,,10.0,76.0
+709,1995,Malta,Keep Me In Mind,10.0,76.0
+710,1995,Greece,Pia Prosefhi,12.0,68.0
+711,1995,Austria,Die Welt Dreht Sich Verkehrt,13.0,67.0
+712,1995,Ireland,Dreamin',14.0,44.0
+713,1995,Iceland,Núna,15.0,31.0
+714,1995,Turkey,Sev!,16.0,21.0
+715,1995,Russia,Kolybelnaya Dlya Vulkana,17.0,17.0
+716,1995,Poland,Sama,18.0,15.0
+717,1995,Bosnia & Herzegovina,Dvadeset I Prvi Vijek,19.0,14.0
+718,1995,Belgium,La Voix Est Libre,20.0,8.0
+719,1995,Portugal,Baunilha E Chocolate,21.0,5.0
+720,1995,Hungary,Ùj Nèv Egy Règi Hàz Fàlan,22.0,3.0
+721,1995,Germany,Verliebt In Dich,23.0,1.0
+722,1996,Ireland,The Voice,1.0,162.0
+723,1996,Norway,I Evighet,2.0,114.0
+724,1996,Sweden,Den Vilda,3.0,100.0
+725,1996,Croatia,Sveta Ljubav,4.0,98.0
+726,1996,Estonia,Kaelakee Hääl,5.0,94.0
+727,1996,Portugal,O Meu Coração Não Tem Cor,6.0,92.0
+728,1996,Netherlands,De Eerste Keer,7.0,78.0
+729,1996,United Kingdom,Ooh...Aah...Just A Little Bit,8.0,77.0
+730,1996,Cyprus,Mono Gia Mas,9.0,72.0
+731,1996,Malta,In A Woman's Heart,10.0,68.0
+732,1996,Austria,Weil's Dr Guat Got,10.0,68.0
+733,1996,Turkey,Besinçi Mevsim,12.0,57.0
+734,1996,Iceland,Sjúbídú,13.0,51.0
+735,1996,Greece,Emis Forame To Himona Anixiatika,14.0,36.0
+736,1996,Poland,Chce Znac Swój Grzech,15.0,31.0
+737,1996,Switzerland,Mon Coeur L'aime,16.0,22.0
+738,1996,Belgium,Liefde Is Een Kaartspel,16.0,22.0
+739,1996,Slovakia,Kým Nás Máš,18.0,19.0
+740,1996,France,Diwanit Bugale,19.0,18.0
+741,1996,Spain,"¡Ay, Qué Deseo!",20.0,17.0
+742,1996,Slovenia,Dan najlepših sanj,21.0,16.0
+743,1996,Bosnia & Herzegovina,Za Našu Ljubav,22.0,13.0
+744,1996,Finland,Niin Kaunis On Taivas,23.0,9.0
+745,1997,United Kingdom,Love Shine A Light,1.0,227.0
+746,1997,Ireland,Mysterious Woman,2.0,157.0
+747,1997,Turkey,Dinle,3.0,121.0
+748,1997,Italy,Fiumi Di Parole,4.0,114.0
+749,1997,Cyprus,Mana Mou,5.0,98.0
+750,1997,Spain,Sin Rencor,6.0,96.0
+751,1997,France,Sentiments Songes,7.0,95.0
+752,1997,Estonia,Keelatud Maa,8.0,82.0
+753,1997,Malta,Let Me Fly,9.0,66.0
+754,1997,Slovenia,Zbudi Se,10.0,60.0
+755,1997,Poland,Ale Jestem,11.0,54.0
+756,1997,Greece,Horepse,12.0,39.0
+757,1997,Hungary,"Miert Kell, Hogy Elmenj?",12.0,39.0
+758,1997,Sweden,Bara Hon älskar Mig,14.0,36.0
+759,1997,Russia,Primadonna,15.0,33.0
+760,1997,Denmark,Stemmen I Mit Liv,16.0,25.0
+761,1997,Croatia,Probudi Me,17.0,24.0
+762,1997,Germany,Zeit,18.0,22.0
+763,1997,Bosnia & Herzegovina,Goodbye,18.0,22.0
+764,1997,Iceland,Minn Hinsti Dans,20.0,18.0
+765,1997,Austria,One Step,21.0,12.0
+766,1997,Switzerland,Dentro Di Me,22.0,5.0
+767,1997,Netherlands,Niemand Heeft Nog Tijd,22.0,5.0
+768,1997,Norway,San Francisco,24.0,0.0
+769,1997,Portugal,Antes Do Adeus,24.0,0.0
+770,1998,Israel,Diva,1.0,172.0
+771,1998,United Kingdom,Where Are You?,2.0,166.0
+772,1998,Malta,The One That I Love,3.0,165.0
+773,1998,Netherlands,Hemel En Aarde,4.0,150.0
+774,1998,Croatia,Neka Mi Ne Svane,5.0,131.0
+775,1998,Belgium,Dis Oui,6.0,122.0
+776,1998,Germany,Guildo Hat Euch Lieb,7.0,86.0
+777,1998,Norway,Alltid Sommer,8.0,79.0
+778,1998,Ireland,Is Always Over Now?,9.0,64.0
+779,1998,Sweden,Kärleken är,10.0,53.0
+780,1998,Cyprus,Genesis,11.0,37.0
+781,1998,Portugal,Se Eu Te Pudesse Abraçar,12.0,36.0
+782,1998,Estonia,Mere Lapsed,12.0,36.0
+783,1998,Turkey,Unutamazsin,14.0,25.0
+784,1998,Finland,Aava,15.0,22.0
+785,1998,Spain,¿Qué Voy A Hacer Sin Ti?,16.0,21.0
+786,1998,Poland,To Takie Proste,17.0,19.0
+787,1998,Slovenia,Naj Bogovi Sliijo,18.0,17.0
+788,1998,North Macedonia,"Ne Zori, Zoro",19.0,16.0
+789,1998,Greece,Mia Krifi Evaisthissia,20.0,12.0
+790,1998,Slovakia,Modlitba,21.0,8.0
+791,1998,Romania,Eu Cred,22.0,6.0
+792,1998,Hungary,A Holnap Már Ném Lesz Szomorú,23.0,4.0
+793,1998,France,Où Aller,24.0,3.0
+794,1998,Switzerland,Lass Ihn,25.0,0.0
+795,1999,Sweden,Take Me To Your Heaven,1.0,163.0
+796,1999,Iceland,All Out Of Luck,2.0,146.0
+797,1999,Germany,Reise Nach Jerusalem - Kudüs'e Seyahat,3.0,140.0
+798,1999,Croatia,Marija Magdalena,4.0,118.0
+799,1999,Israel,Yom Huledeth,5.0,93.0
+800,1999,Estonia,Diamond Of Night,6.0,90.0
+801,1999,Bosnia & Herzegovina,Putnici,7.0,86.0
+802,1999,Denmark,This Time (i Mean It),8.0,71.0
+803,1999,Netherlands,One Good Reason,8.0,71.0
+804,1999,Austria,Reflection,10.0,65.0
+805,1999,Slovenia,For A Thousand Years,11.0,50.0
+806,1999,Belgium,Like The Wind,12.0,38.0
+807,1999,United Kingdom,Say It Again,12.0,38.0
+808,1999,Norway,Living My Life Without You,14.0,35.0
+809,1999,Malta,Believe 'n Peace,15.0,32.0
+810,1999,Turkey,Dön Artik,16.0,21.0
+811,1999,Ireland,When You Need Me,17.0,18.0
+812,1999,Poland,Przytul Mnie Mocno,18.0,17.0
+813,1999,France,Je Veux Donner Ma Voix,19.0,14.0
+814,1999,Lithuania,Strazdas,20.0,13.0
+815,1999,Portugal,Como Tudo Começou,21.0,12.0
+816,1999,Cyprus,Tha'nai Erotas,22.0,2.0
+817,1999,Spain,No Quiero Escuchar,23.0,1.0
+818,2000,Denmark,Fly On The Wings Of Love,1.0,195.0
+819,2000,Russia,Solo,2.0,155.0
+820,2000,Latvia,My Star,3.0,136.0
+821,2000,Estonia,Once In A Lifetime,4.0,98.0
+822,2000,Germany,Wadde Hadde Dudde Da,5.0,96.0
+823,2000,Ireland,Millennium Of Love,6.0,92.0
+824,2000,Sweden,When Spirits Are Calling My Name,7.0,88.0
+825,2000,Malta,Desire,8.0,73.0
+826,2000,Croatia,Kada Zaspu Andeli,9.0,70.0
+827,2000,Turkey,Yorgunum Anla,10.0,59.0
+828,2000,Norway,My Heart Goes Boom,11.0,57.0
+829,2000,Iceland,Tell Me!,12.0,45.0
+830,2000,Netherlands,No Goodbyes,13.0,40.0
+831,2000,Austria,All To You,14.0,34.0
+832,2000,North Macedonia,100% Te Ljubam,15.0,29.0
+833,2000,United Kingdom,Don't Play That Song Again,16.0,28.0
+834,2000,Romania,The Moon,17.0,25.0
+835,2000,Spain,Colgado De Un Sueño,18.0,18.0
+836,2000,Finland,A Little Bit,18.0,18.0
+837,2000,Switzerland,La Vita Cos'è?,20.0,14.0
+838,2000,Cyprus,Nomiza,21.0,8.0
+839,2000,Israel,Sa'me'akh,22.0,7.0
+840,2000,France,On Aura Le Ciel,23.0,5.0
+841,2000,Belgium,Envie De Vivre,24.0,2.0
+842,2001,Estonia,Everybody,1.0,198.0
+843,2001,Denmark,Never Ever Let You Go,2.0,177.0
+844,2001,Greece,Die For You,3.0,147.0
+845,2001,France,Je N'ai Que Mon âme,4.0,142.0
+846,2001,Sweden,Listen To Your Heartbeat,5.0,100.0
+847,2001,Spain,Dile Que La Quiero,6.0,76.0
+848,2001,Slovenia,Energy,7.0,70.0
+849,2001,Germany,Wer Liebe Lebt,8.0,66.0
+850,2001,Malta,Another Summer Night,9.0,48.0
+851,2001,Croatia,Strings Of My Heart,10.0,42.0
+852,2001,Turkey,Sevgiliye Son,11.0,41.0
+853,2001,Russia,Lady Alpine Blue,12.0,37.0
+854,2001,Lithuania,You Got Style,13.0,35.0
+855,2001,Bosnia & Herzegovina,Hano,14.0,29.0
+856,2001,United Kingdom,No Dream Impossible,15.0,28.0
+857,2001,Israel,Ein Davar,16.0,25.0
+858,2001,Portugal,Só Sei Ser Feliz Assim,17.0,18.0
+859,2001,Netherlands,Out On My Own,18.0,16.0
+860,2001,Latvia,Too Much,18.0,16.0
+861,2001,Poland,2 Long,20.0,11.0
+862,2001,Ireland,Without Your Love,21.0,6.0
+863,2001,Iceland,Angel,22.0,3.0
+864,2001,Norway,On My Own,22.0,3.0
+865,2002,Latvia,I Wanna,1.0,176.0
+866,2002,Malta,7th Wonder,2.0,164.0
+867,2002,United Kingdom,Come Back,3.0,111.0
+868,2002,Estonia,Runaway,3.0,111.0
+869,2002,France,Il Faut Du Temps,5.0,104.0
+870,2002,Cyprus,Gimme,6.0,85.0
+871,2002,Spain,Europe's Living A Celebration,7.0,81.0
+872,2002,Sweden,Never Let It Go,8.0,72.0
+873,2002,Romania,Tell Me Why,9.0,71.0
+874,2002,Russia,Northern Girl,10.0,55.0
+875,2002,Croatia,Everything I Want,11.0,44.0
+876,2002,Israel,Light A Candle,12.0,37.0
+877,2002,Bosnia & Herzegovina,Na Jastuku Za Dvoje,13.0,33.0
+878,2002,Belgium,Sister,13.0,33.0
+879,2002,Slovenia,Samo Ljubezen,13.0,33.0
+880,2002,Turkey,Leylaklar Soldu Kalbinde,16.0,29.0
+881,2002,Greece,S.A.G.A.P.O.,17.0,27.0
+882,2002,Austria,Say A Word,18.0,26.0
+883,2002,North Macedonia,Od Nas Zavisi,19.0,25.0
+884,2002,Finland,Addicted To You,20.0,24.0
+885,2002,Germany,I Can't Live Without Music,21.0,17.0
+886,2002,Switzerland,Dans Le Jardin De Mon Âme,22.0,15.0
+887,2002,Lithuania,Happy You,23.0,12.0
+888,2002,Denmark,Tell Me Who You Are,24.0,7.0
+889,2003,Turkey,Everyway That I Can,1.0,167.0
+890,2003,Belgium,Sanomi,2.0,165.0
+891,2003,Russia,"Ne Ver, Ne Boisia",3.0,164.0
+892,2003,Norway,I'm Not Afraid To Move On,4.0,123.0
+893,2003,Sweden,Give Me Your Love,5.0,107.0
+894,2003,Austria,Weil Der Mensch Zählt,6.0,101.0
+895,2003,Poland,Keine Grenzen - Zadnych Granic,7.0,90.0
+896,2003,Iceland,Open Your Heart,8.0,81.0
+897,2003,Spain,Dime,8.0,81.0
+898,2003,Romania,Dont Break My Heart,10.0,73.0
+899,2003,Ireland,We've Got The World,11.0,53.0
+900,2003,Germany,Lets Get Happy,11.0,53.0
+901,2003,Netherlands,One More Night,13.0,45.0
+902,2003,Ukraine,Hasta La Vista,14.0,30.0
+903,2003,Croatia,Vie Nisam Tvoja,15.0,29.0
+904,2003,Bosnia & Herzegovina,Ne Brini,16.0,27.0
+905,2003,Greece,Never Let You Go,17.0,25.0
+906,2003,France,Monts Et Merveilles,18.0,19.0
+907,2003,Israel,Words For Love,19.0,17.0
+908,2003,Cyprus,Feeling Alive,20.0,15.0
+909,2003,Estonia,Eighties Coming Back,21.0,14.0
+910,2003,Portugal,Deixa-me Sonhar,22.0,13.0
+911,2003,Slovenia,Nanana,23.0,7.0
+912,2003,Latvia,Hello From Mars,24.0,5.0
+913,2003,Malta,To Dream Again,25.0,4.0
+914,2003,United Kingdom,Cry Baby,26.0,0.0
+915,2004,Ukraine,Wild Dances,1.0,280.0
+916,2004,Serbia & Montenegro,Lane Moje,2.0,263.0
+917,2004,Greece,Shake It,3.0,252.0
+918,2004,Turkey,For Real,4.0,195.0
+919,2004,Cyprus,Stronger Every Minute,5.0,170.0
+920,2004,Sweden,It Hurts,5.0,170.0
+921,2004,Albania,The Image Of You,7.0,106.0
+922,2004,Germany,Can't Wait Until Tonight,8.0,93.0
+923,2004,Bosnia & Herzegovina,In The Disco,9.0,91.0
+924,2004,Spain,Para Llenarme De Ti,10.0,87.0
+925,2004,Russia,Believe Me,11.0,67.0
+926,2004,Malta,On Again... Off Again,12.0,50.0
+927,2004,Croatia,You Are The Only One,12.0,50.0
+928,2004,North Macedonia,Life,14.0,47.0
+929,2004,France,A Chaque Pas,15.0,40.0
+930,2004,United Kingdom,Hold On To Our Love,16.0,29.0
+931,2004,Poland,Love Song,17.0,27.0
+932,2004,Romania,I Admit,18.0,18.0
+933,2004,Iceland,Heaven,19.0,16.0
+934,2004,Netherlands,Without You,20.0,11.0
+935,2004,Austria,Du Bist,21.0,9.0
+936,2004,Belgium,1 Life,22.0,7.0
+937,2004,Ireland,If My World Stopped Turning,22.0,7.0
+938,2004,Norway,High,24.0,3.0
+939,2004,Estonia,Tii,,
+940,2004,Israel,Le'ha'amin,,
+941,2004,Denmark,Shame On You,,
+942,2004,Finland,Takes 2 To Tango,,
+943,2004,Portugal,Foi Magia,,
+944,2004,Lithuania,What's Happened To Your Love,,
+945,2004,Latvia,Dziesma Par Laimi,,
+946,2004,Andorra,Jugarem A Estimar-nos,,
+947,2004,Belarus,My Galileo,,
+948,2004,Monaco,Notre Planète,,
+949,2004,Slovenia,Stay Forever,,
+950,2004,Switzerland,Celebrate,,
+951,2005,Greece,My Number One,1.0,230.0
+952,2005,Malta,Angel,2.0,192.0
+953,2005,Romania,Let Me Try,3.0,158.0
+954,2005,Israel,Hasheket Shenish'ar,4.0,154.0
+955,2005,Latvia,The War Is Not Over,5.0,153.0
+956,2005,Moldova,Boonika Bate Doba,6.0,148.0
+957,2005,Serbia & Montenegro,Zauvijek Moja,7.0,137.0
+958,2005,Switzerland,Cool Vibes,8.0,128.0
+959,2005,Norway,In My Dreams,9.0,125.0
+960,2005,Denmark,Talking To You,9.0,125.0
+961,2005,Croatia,Vukovi Umiru Sami,11.0,115.0
+962,2005,Hungary,Forogj Világ,12.0,97.0
+963,2005,Turkey,Rimi Rimi Ley,13.0,92.0
+964,2005,Bosnia & Herzegovina,Call Me,14.0,79.0
+965,2005,Russia,Nobody Hurt No One,15.0,57.0
+966,2005,Albania,Tomorrow I Go,16.0,53.0
+967,2005,North Macedonia,Make My Day,17.0,52.0
+968,2005,Cyprus,Ela Ela,18.0,46.0
+969,2005,Sweden,Las Vegas,19.0,30.0
+970,2005,Ukraine,Razom Nas Bahato,19.0,30.0
+971,2005,Spain,Brujería,21.0,28.0
+972,2005,United Kingdom,Touch My Fire,22.0,18.0
+973,2005,France,Chacun Pense à Soi,23.0,11.0
+974,2005,Germany,Run & Hide,24.0,4.0
+975,2005,Poland,Czarna Dziewczyna,,
+976,2005,Slovenia,Stop,,
+977,2005,Belarus,Love Me Tonight,,
+978,2005,Netherlands,My Impossible Dream,,
+979,2005,Ireland,Love?,,
+980,2005,Iceland,If I Had Your Love,,
+981,2005,Portugal,Amar,,
+982,2005,Finland,Why,,
+983,2005,Bulgaria,Lorraine,,
+984,2005,Estonia,Let's Get Loud,,
+985,2005,Austria,Y Así,,
+986,2005,Belgium,Le Grand Soir,,
+987,2005,Andorra,La Mirada Interior,,
+988,2005,Monaco,Tout De Moi,,
+989,2005,Lithuania,Little By Little,,
+990,2006,Finland,Hard Rock Hallelujah,1.0,292.0
+991,2006,Russia,Never Let You Go,2.0,248.0
+992,2006,Bosnia & Herzegovina,Lejla,3.0,229.0
+993,2006,Romania,Tornero,4.0,172.0
+994,2006,Sweden,Invincible,5.0,170.0
+995,2006,Lithuania,We Are The Winners,6.0,162.0
+996,2006,Ukraine,Show Me Your Love,7.0,145.0
+997,2006,Armenia,Without Your Love,8.0,129.0
+998,2006,Greece,Everything,9.0,128.0
+999,2006,Ireland,Every Song Is A Cry For Love,10.0,93.0
+1000,2006,Turkey,Superstar,11.0,91.0
+1001,2006,North Macedonia,Ninanajna,12.0,56.0
+1002,2006,Croatia,Moja tikla,12.0,56.0
+1003,2006,Norway,Alvedansen,14.0,36.0
+1004,2006,Germany,"No, No, Never",14.0,36.0
+1005,2006,Switzerland,If We All Give A Little,16.0,30.0
+1006,2006,Latvia,I Hear Your Heart,16.0,30.0
+1007,2006,Denmark,Twist Of Love,18.0,26.0
+1008,2006,United Kingdom,Teenage Life,19.0,25.0
+1009,2006,Moldova,Loca,20.0,22.0
+1010,2006,Spain,Bloody Mary,21.0,18.0
+1011,2006,France,Il était Temps,22.0,5.0
+1012,2006,Israel,Ze Hazman,23.0,4.0
+1013,2006,Malta,I Do,24.0,1.0
+1014,2006,Poland,Follow My Heart,,
+1015,2006,Belgium,Je t'adore,,
+1016,2006,Iceland,Congratulations,,
+1017,2006,Albania,Zjarr E Ftohtë,,
+1018,2006,Cyprus,Why Angels Cry,,
+1019,2006,Slovenia,Mr. Nobody,,
+1020,2006,Bulgaria,Let Me Cry,,
+1021,2006,Estonia,Through My Window,,
+1022,2006,Portugal,Coisas De Nada,,
+1023,2006,Netherlands,Amambanda,,
+1024,2006,Monaco,La Coco-dance,,
+1025,2006,Belarus,Mum,,
+1026,2006,Andorra,Sense Tu,,
+1027,2007,Serbia,Molitva,1.0,268.0
+1028,2007,Ukraine,Dancing Lasha Tumbai,2.0,235.0
+1029,2007,Russia,Song # 1,3.0,207.0
+1030,2007,Turkey,Shake It Up Shekerim,4.0,163.0
+1031,2007,Bulgaria,Water,5.0,157.0
+1032,2007,Belarus,Work Your Magic,6.0,145.0
+1033,2007,Greece,Yassou Maria,7.0,139.0
+1034,2007,Armenia,Anytime You Need,8.0,138.0
+1035,2007,Hungary,Unsubstantial Blues,9.0,128.0
+1036,2007,Moldova,Fight,10.0,109.0
+1037,2007,Bosnia & Herzegovina,Rijeka Bez Imena,11.0,106.0
+1038,2007,Georgia,Visionary Dream,12.0,97.0
+1039,2007,Romania,"Liubi, Liubi, I Love You",13.0,84.0
+1040,2007,North Macedonia,Mojot Svet,14.0,73.0
+1041,2007,Slovenia,Cvet Z Juga,15.0,66.0
+1042,2007,Latvia,Questa Notte,16.0,54.0
+1043,2007,Finland,Leave Me Alone,17.0,53.0
+1044,2007,Sweden,The Worrying Kind,18.0,51.0
+1045,2007,Germany,Frauen Regieren Die Welt,19.0,49.0
+1046,2007,Spain,I Love You Mi Vida,20.0,43.0
+1047,2007,Lithuania,Love Or Leave,21.0,28.0
+1048,2007,France,L'amour à La Française,22.0,19.0
+1049,2007,United Kingdom,Flying The Flag (for You),22.0,19.0
+1050,2007,Ireland,They Can't Stop The Spring,24.0,5.0
+1051,2007,Portugal,Dança Comigo (vem Ser Feliz),,
+1052,2007,Andorra,Salvem El Món,,
+1053,2007,Iceland,Valentine Lost,,
+1054,2007,Poland,Time To Party,,
+1055,2007,Cyprus,"Comme Ci, Comme ça",,
+1056,2007,Croatia,Vjerujem U Ljubav,,
+1057,2007,Albania,Hear My Plea,,
+1058,2007,Norway,Ven A Bailar Conmigo,,
+1059,2007,Denmark,Drama Queen,,
+1060,2007,Switzerland,Vampires Are Alive,,
+1061,2007,Netherlands,On Top Of The World,,
+1062,2007,Montenegro,Ajde Kroci,,
+1063,2007,Estonia,Partners In Crime,,
+1064,2007,Israel,Push The Button,,
+1065,2007,Malta,Vertigo,,
+1066,2007,Belgium,Love Power,,
+1067,2007,Austria,Get A Life - Get Alive,,
+1068,2007,Czech Republic,Malá Dáma,,
+1069,2008,Russia,Believe,1.0,272.0
+1070,2008,Ukraine,Shady Lady,2.0,230.0
+1071,2008,Greece,Secret Combination,3.0,218.0
+1072,2008,Armenia,"Qele, Qele",4.0,199.0
+1073,2008,Norway,Hold On Be Strong,5.0,182.0
+1074,2008,Serbia,Oro,6.0,160.0
+1075,2008,Turkey,Deli,7.0,138.0
+1076,2008,Azerbaijan,Day After Day,8.0,132.0
+1077,2008,Israel,The Fire In Your Eyes,9.0,124.0
+1078,2008,Bosnia & Herzegovina,Pokušaj,10.0,110.0
+1079,2008,Georgia,Peace Will Come,11.0,83.0
+1080,2008,Latvia,Wolves Of The Sea,12.0,83.0
+1081,2008,Portugal,Senhora Do Mar (Negras Águas),13.0,69.0
+1082,2008,Iceland,This Is My Life,14.0,64.0
+1083,2008,Denmark,All Night Long,15.0,60.0
+1084,2008,Spain,Baila El Chiki Chiki,16.0,55.0
+1085,2008,Albania,Zemrën E Lamë Peng,17.0,55.0
+1086,2008,Sweden,Hero,18.0,47.0
+1087,2008,France,Divine,19.0,47.0
+1088,2008,Romania,Pe-o Margine De Lume,20.0,45.0
+1089,2008,Croatia,Romanca,21.0,44.0
+1090,2008,Finland,Missä Miehet Ratsastaa,22.0,35.0
+1091,2008,Germany,Disappear,23.0,14.0
+1092,2008,Poland,For Life,24.0,14.0
+1093,2008,United Kingdom,Even If,25.0,14.0
+1094,2008,North Macedonia,Let Me Love You,,
+1095,2008,Bulgaria,"DJ, Take Me Away",,
+1096,2008,Switzerland,Era Stupendo,,
+1097,2008,Malta,Vodka,,
+1098,2008,Slovenia,Vrag Naj Vzame,,
+1099,2008,Moldova,A Century Of Love,,
+1100,2008,Cyprus,Femme Fatale,,
+1101,2008,Lithuania,Nomads In The Night,,
+1102,2008,Netherlands,Your Heart Belongs To Me,,
+1103,2008,Belarus,Hasta La Vista,,
+1104,2008,Montenegro,Zauvijek Volim Te,,
+1105,2008,Ireland,Irelande Douze Pointe,,
+1106,2008,Andorra,Casanova,,
+1107,2008,Belgium,O Julissi,,
+1108,2008,Czech Republic,Have Some Fun,,
+1109,2008,Estonia,Leto Svet,,
+1110,2008,Hungary,Candlelight,,
+1111,2008,San Marino,Complice,,
+1112,2009,Norway,Fairytale,1.0,387.0
+1113,2009,Iceland,Is It True?,2.0,218.0
+1114,2009,Azerbaijan,Always,3.0,207.0
+1115,2009,Turkey,Düm Tek Tek,4.0,177.0
+1116,2009,United Kingdom,It's My Time,5.0,173.0
+1117,2009,Estonia,Rändajad,6.0,129.0
+1118,2009,Greece,This Is Our Night,7.0,120.0
+1119,2009,France,Et S'il Fallait Le Faire,8.0,107.0
+1120,2009,Bosnia & Herzegovina,Bistra Voda,9.0,106.0
+1121,2009,Armenia,Jan Jan,10.0,92.0
+1122,2009,Russia,Mamo,11.0,91.0
+1123,2009,Ukraine,Be my Valentine! (Anti-crisis Girl),12.0,76.0
+1124,2009,Denmark,Believe Again,13.0,74.0
+1125,2009,Moldova,Hora Din Moldova,14.0,69.0
+1126,2009,Portugal,Todas As Ruas Do Amor,15.0,57.0
+1127,2009,Israel,There Must Be Another Way,16.0,53.0
+1128,2009,Albania,Carry Me In Your Dreams,17.0,48.0
+1129,2009,Croatia,Lijepa Tena,18.0,45.0
+1130,2009,Romania,The Balkan Girls,19.0,40.0
+1131,2009,Germany,Miss Kiss Kiss Bang,20.0,35.0
+1132,2009,Sweden,La Voix,21.0,33.0
+1133,2009,Malta,What If We,22.0,31.0
+1134,2009,Lithuania,Love,23.0,23.0
+1135,2009,Spain,La Noche Es Para Mí (The Night Is For Me),24.0,23.0
+1136,2009,Finland,Lose Control,25.0,22.0
+1137,2009,Serbia,Cipela,,
+1138,2009,Ireland,Et Cetera,,
+1139,2009,North Macedonia,Neshto Shto Ke Ostane,,
+1140,2009,Montenegro,Just Get Out of My Life,,
+1141,2009,Poland,I Don't Wanna Leave,,
+1142,2009,Cyprus,Firefly,,
+1143,2009,Belarus,Eyes That Never Lie,,
+1144,2009,Switzerland,The Highest Heights,,
+1145,2009,Hungary,Dance With Me,,
+1146,2009,Slovenia,Love Symphony,,
+1147,2009,Netherlands,Shine,,
+1148,2009,Andorra,La Teva Decisió (Get A Life),,
+1149,2009,Slovakia,Leť Tmou,,
+1150,2009,Bulgaria,Illusion,,
+1151,2009,Latvia,Probka,,
+1152,2009,Belgium,,,
+1153,2009,Czech Republic,Aven Romale,,
+1154,2010,Germany,Satellite,1.0,246.0
+1155,2010,Turkey,We Could Be The Same,2.0,170.0
+1156,2010,Romania,Playing With Fire,3.0,162.0
+1157,2010,Denmark,In A Moment Like This,4.0,149.0
+1158,2010,Azerbaijan,Drip Drop,5.0,145.0
+1159,2010,Belgium,Me And My Guitar,6.0,143.0
+1160,2010,Armenia,Apricot Stone,7.0,141.0
+1161,2010,Greece,OPA,8.0,140.0
+1162,2010,Georgia,Shine,9.0,136.0
+1163,2010,Ukraine,Sweet People,10.0,108.0
+1164,2010,Russia,Lost And Forgotten,11.0,90.0
+1165,2010,France,Allez Olla Olé,12.0,82.0
+1166,2010,Serbia,Ovo Je Balkan,13.0,72.0
+1167,2010,Israel,Milim,14.0,71.0
+1168,2010,Spain,Algo Pequeñito,15.0,68.0
+1169,2010,Albania,It's All About You,16.0,62.0
+1170,2010,Bosnia & Herzegovina,Thunder and Lightning,17.0,51.0
+1171,2010,Portugal,Há Dias Assim,18.0,43.0
+1172,2010,Iceland,Je Ne Sais Quoi,19.0,41.0
+1173,2010,Norway,My Heart Is Yours,20.0,35.0
+1174,2010,Cyprus,Life Looks Better In Spring,21.0,27.0
+1175,2010,Moldova,Run Away,22.0,27.0
+1176,2010,Ireland,It's For You,23.0,25.0
+1177,2010,Belarus,Butterflies,24.0,18.0
+1178,2010,United Kingdom,That Sounds Good To Me,25.0,10.0
+1179,2010,Sweden,This Is My Life,,
+1180,2010,Finland,Työlki Ellää,,
+1181,2010,Lithuania,Eastern European Funk,,
+1182,2010,Malta,My Dream,,
+1183,2010,Poland,Legenda,,
+1184,2010,Estonia,Siren,,
+1185,2010,North Macedonia,Jas Ja Imam Silata,,
+1186,2010,Croatia,Lako Je Sve,,
+1187,2010,Netherlands,Ik Ben Verliefd (Sha-la-lie),,
+1188,2010,Slovakia,Horehronie,,
+1189,2010,Bulgaria,Angel Si Ti,,
+1190,2010,Latvia,What For?,,
+1191,2010,Slovenia,Narodnozabavni Rock,,
+1192,2010,Switzerland,Il Pleut de L'Or,,
+1193,2011,Azerbaijan,Running Scared,1.0,221.0
+1194,2011,Italy,Madness Of Love,2.0,189.0
+1195,2011,Sweden,Popular,3.0,185.0
+1196,2011,Ukraine,Angel,4.0,159.0
+1197,2011,Denmark,New Tomorrow,5.0,134.0
+1198,2011,Bosnia & Herzegovina,Love In Rewind,6.0,125.0
+1199,2011,Greece,Watch My Dance,7.0,120.0
+1200,2011,Ireland,Lipstick,8.0,119.0
+1201,2011,Georgia,One More Day,9.0,110.0
+1202,2011,Germany,Taken By A Stranger,10.0,107.0
+1203,2011,United Kingdom,I Can,11.0,100.0
+1204,2011,Moldova,So Lucky,12.0,97.0
+1205,2011,Slovenia,No One,13.0,96.0
+1206,2011,Serbia,Čaroban,14.0,85.0
+1207,2011,France,Sognu,15.0,82.0
+1208,2011,Russia,Get You,16.0,77.0
+1209,2011,Romania,Change,17.0,77.0
+1210,2011,Austria,The Secret Is Love,18.0,64.0
+1211,2011,Lithuania,C'est Ma Vie,19.0,63.0
+1212,2011,Iceland,Coming Home,20.0,61.0
+1213,2011,Finland,Da Da Dam,21.0,57.0
+1214,2011,Hungary,What About My Dreams?,22.0,53.0
+1215,2011,Spain,Que Me Quiten Lo Bailao,23.0,50.0
+1216,2011,Estonia,Rockefeller Street,24.0,44.0
+1217,2011,Switzerland,In Love For A While,25.0,19.0
+1218,2011,Malta,One Life,,
+1219,2011,Armenia,Boom Boom,,
+1220,2011,Belgium,With Love Baby,,
+1221,2011,Turkey,Live It Up,,
+1222,2011,Albania,Feel The Passion,,
+1223,2011,Bulgaria,Na Inat,,
+1224,2011,Slovakia,I'm Still Alive,,
+1225,2011,Belarus,I Love Belarus,,
+1226,2011,Croatia,Celebrate,,
+1227,2011,Israel,Ding Dong,,
+1228,2011,North Macedonia,Rusinka,,
+1229,2011,San Marino,Stand By,,
+1230,2011,Norway,Haba Haba,,
+1231,2011,Latvia,Angel In Disguise,,
+1232,2011,Portugal,Luta É Alegria,,
+1233,2011,Poland,Jestem,,
+1234,2011,Cyprus,San Aggelos S'agapisa,,
+1235,2011,Netherlands,Never Alone,,
+1236,2012,Sweden,Euphoria,1.0,372.0
+1237,2012,Russia,Party For Everybody,2.0,259.0
+1238,2012,Serbia,Nije Ljubav Stvar,3.0,214.0
+1239,2012,Azerbaijan,When The Music Dies,4.0,150.0
+1240,2012,Albania,Suus,5.0,146.0
+1241,2012,Estonia,Kuula,6.0,120.0
+1242,2012,Turkey,Love Me Back,7.0,112.0
+1243,2012,Germany,Standing Still,8.0,110.0
+1244,2012,Italy,L'Amore È Femmina (Out Of Love),9.0,101.0
+1245,2012,Spain,Quédate Conmigo,10.0,97.0
+1246,2012,Moldova,Lăutar,11.0,81.0
+1247,2012,Romania,Zaleilah,12.0,71.0
+1248,2012,North Macedonia,Crno I Belo,13.0,71.0
+1249,2012,Lithuania,Love Is Blind,14.0,70.0
+1250,2012,Ukraine,Be My Guest,15.0,65.0
+1251,2012,Cyprus,La La Love,16.0,65.0
+1252,2012,Greece,Aphrodisiac,17.0,64.0
+1253,2012,Bosnia & Herzegovina,Korake Ti Znam,18.0,55.0
+1254,2012,Ireland,Waterline,19.0,46.0
+1255,2012,Iceland,Never Forget,20.0,46.0
+1256,2012,Malta,This Is The Night,21.0,41.0
+1257,2012,France,Echo (You And I),22.0,21.0
+1258,2012,Denmark,Should've Known Better,23.0,21.0
+1259,2012,Hungary,Sound Of Our Hearts,24.0,19.0
+1260,2012,United Kingdom,Love Will Set You Free,25.0,12.0
+1261,2012,Norway,Stay,26.0,7.0
+1262,2012,Bulgaria,Love Unlimited,,
+1263,2012,Switzerland,Unbreakable,,
+1264,2012,Croatia,Nebo,,
+1265,2012,Finland,När Jag Blundar,,
+1266,2012,Portugal,Vida Minha,,
+1267,2012,Georgia,I'm A Joker,,
+1268,2012,Netherlands,You And Me,,
+1269,2012,Belarus,We Are The Heroes,,
+1270,2012,Israel,Time,,
+1271,2012,San Marino,The Social Network Song (Oh Oh – Uh - Oh Oh),,
+1272,2012,Slovenia,Verjamem,,
+1273,2012,Slovakia,Don't Close Your Eyes,,
+1274,2012,Montenegro,Euro Neuro,,
+1275,2012,Latvia,Beautiful Song,,
+1276,2012,Belgium,Would You?,,
+1277,2012,Austria,Woki Mit Deim Popo,,
+1278,2013,Denmark,Only Teardrops,1.0,281.0
+1279,2013,Azerbaijan,Hold Me,2.0,234.0
+1280,2013,Ukraine,Gravity,3.0,214.0
+1281,2013,Norway,I Feed You My Love,4.0,191.0
+1282,2013,Russia,What If,5.0,174.0
+1283,2013,Greece,Alcohol Is Free,6.0,152.0
+1284,2013,Italy,L'Essenziale,7.0,126.0
+1285,2013,Malta,Tomorrow,8.0,120.0
+1286,2013,Netherlands,Birds,9.0,114.0
+1287,2013,Hungary,Kedvesem,10.0,84.0
+1288,2013,Moldova,O Mie,11.0,71.0
+1289,2013,Belgium,Love Kills,12.0,71.0
+1290,2013,Romania,It's My Life,13.0,65.0
+1291,2013,Sweden,You,14.0,62.0
+1292,2013,Georgia,Waterfall,15.0,50.0
+1293,2013,Belarus,Solayoh,16.0,48.0
+1294,2013,Iceland,Ég Á Líf,17.0,47.0
+1295,2013,Armenia,Lonely Planet,18.0,41.0
+1296,2013,United Kingdom,Believe In Me,19.0,23.0
+1297,2013,Estonia,Et Uus Saaks Alguse,20.0,19.0
+1298,2013,Germany,Glorious,21.0,18.0
+1299,2013,Lithuania,Something,22.0,17.0
+1300,2013,France,L'enfer Et Moi,23.0,14.0
+1301,2013,Finland,Marry Me,24.0,13.0
+1302,2013,Spain,Contigo Hasta El Final (With You Until The End),25.0,8.0
+1303,2013,Ireland,Only Love Survives,26.0,5.0
+1304,2013,Serbia,Ljubav Je Svuda,,
+1305,2013,San Marino,Crisalide (Vola),,
+1306,2013,Bulgaria,Samo Shampioni,,
+1307,2013,Montenegro,Igranka,,
+1308,2013,Switzerland,You And Me,,
+1309,2013,Croatia,Mižerja,,
+1310,2013,Israel,Rak Bishvilo,,
+1311,2013,Albania,Identitet,,
+1312,2013,Austria,Shine,,
+1313,2013,North Macedonia,Pred Da Se Razdeni,,
+1314,2013,Latvia,Here We Go,,
+1315,2013,Cyprus,An Me Thimasai,,
+1316,2013,Slovenia,Straight Into Love,,
+1317,2014,Austria,Rise Like a Phoenix,1.0,290.0
+1318,2014,Netherlands,Calm After The Storm,2.0,238.0
+1319,2014,Sweden,Undo,3.0,218.0
+1320,2014,Armenia,Not Alone,4.0,174.0
+1321,2014,Hungary,Running,5.0,143.0
+1322,2014,Ukraine,Tick - Tock,6.0,113.0
+1323,2014,Russia,Shine,7.0,89.0
+1324,2014,Norway,Silent Storm,8.0,88.0
+1325,2014,Denmark,Cliche Love Song,9.0,74.0
+1326,2014,Spain,Dancing in the rain,10.0,74.0
+1327,2014,Finland,Something Better,11.0,72.0
+1328,2014,Romania,Miracle,12.0,72.0
+1329,2014,Switzerland,Hunter Of Stars,13.0,64.0
+1330,2014,Poland,My Słowianie - We Are Slavic,14.0,62.0
+1331,2014,Iceland,No Prejudice,15.0,58.0
+1332,2014,Belarus,Cheesecake,16.0,43.0
+1333,2014,United Kingdom,Children of the Universe,17.0,40.0
+1334,2014,Germany,Is It Right,18.0,39.0
+1335,2014,Montenegro,Moj Svijet,19.0,37.0
+1336,2014,Greece,Rise Up,20.0,35.0
+1337,2014,Italy,La Mia Città,21.0,33.0
+1338,2014,Azerbaijan,Start A Fire,22.0,33.0
+1339,2014,Malta,Coming Home,23.0,32.0
+1340,2014,San Marino,Maybe (Forse),24.0,14.0
+1341,2014,Slovenia,Round and Round,25.0,9.0
+1342,2014,France,Moustache,26.0,2.0
+1343,2014,Portugal,Quero Ser Tua,,
+1344,2014,Lithuania,Attention,,
+1345,2014,Ireland,Heartbeat,,
+1346,2014,Estonia,Amazing,,
+1347,2014,North Macedonia,To the Sky,,
+1348,2014,Latvia,Cake To Bake,,
+1349,2014,Belgium,Mother,,
+1350,2014,Albania,One Night's Anger,,
+1351,2014,Israel,Same Heart,,
+1352,2014,Georgia,Three Minutes To Earth,,
+1353,2014,Moldova,Wild Soul,,
+1354,2015,Sweden,Heroes,1.0,365.0
+1355,2015,Russia,A Million Voices,2.0,303.0
+1356,2015,Italy,Grande Amore,3.0,292.0
+1357,2015,Belgium,Rhythm Inside,4.0,217.0
+1358,2015,Australia,Tonight Again,5.0,196.0
+1359,2015,Latvia,Love Injected,6.0,186.0
+1360,2015,Estonia,Goodbye to Yesterday,7.0,106.0
+1361,2015,Norway,A Monster Like Me,8.0,102.0
+1362,2015,Israel,Golden Boy,9.0,97.0
+1363,2015,Serbia,Beauty Never Lies,10.0,53.0
+1364,2015,Georgia,Warrior,11.0,51.0
+1365,2015,Azerbaijan,Hour Of The Wolf,12.0,49.0
+1366,2015,Montenegro,Adio,13.0,44.0
+1367,2015,Slovenia,Here for You,14.0,39.0
+1368,2015,Romania,De La Capăt / All Over Again,15.0,35.0
+1369,2015,Armenia,Face The Shadow,16.0,34.0
+1370,2015,Albania,I'm Alive,17.0,34.0
+1371,2015,Lithuania,This Time,18.0,30.0
+1372,2015,Greece,One Last Breath,19.0,23.0
+1373,2015,Hungary,Wars For Nothing,20.0,19.0
+1374,2015,Spain,Amanecer,21.0,15.0
+1375,2015,Cyprus,One Thing I Should Have Done,22.0,11.0
+1376,2015,Poland,In The Name Of Love,23.0,10.0
+1377,2015,United Kingdom,Still in Love with You,24.0,5.0
+1378,2015,France,N’oubliez pas,25.0,4.0
+1379,2015,Austria,I Am Yours,26.0,0.0
+1380,2015,Germany,Black Smoke,27.0,0.0
+1381,2015,Moldova,I Want Your Love,,
+1382,2015,Malta,Warrior,,
+1383,2015,Belarus,Time,,
+1384,2015,Ireland,Playing With Numbers,,
+1385,2015,Denmark,The Way You Are,,
+1386,2015,Netherlands,Walk Along,,
+1387,2015,Czech Republic,Hope Never Dies,,
+1388,2015,North Macedonia,Autumn Leaves,,
+1389,2015,Portugal,Há um mar que nos Separa,,
+1390,2015,Iceland,Unbroken,,
+1391,2015,Finland,Aina Mun Pitää,,
+1392,2015,San Marino,Chain Of Lights,,
+1393,2015,Switzerland,Time To Shine,,
+1394,2016,Ukraine,1944,1.0,534.0
+1395,2016,Australia,Sound of Silence,2.0,511.0
+1396,2016,Russia,You Are the Only One,3.0,491.0
+1397,2016,Bulgaria,If Love Was a Crime,4.0,307.0
+1398,2016,Sweden,If I Were Sorry,5.0,261.0
+1399,2016,France,J'ai Cherché,6.0,257.0
+1400,2016,Armenia,LoveWave,7.0,249.0
+1401,2016,Poland,Color of Your Life,8.0,229.0
+1402,2016,Lithuania,I've Been Waiting for This Night,9.0,200.0
+1403,2016,Belgium,What's the Pressure,10.0,181.0
+1404,2016,Netherlands,Slow Down,11.0,153.0
+1405,2016,Malta,Walk on Water,12.0,153.0
+1406,2016,Austria,Loin d'ici,13.0,151.0
+1407,2016,Israel,Made of Stars,14.0,135.0
+1408,2016,Latvia,Heartbeat,15.0,132.0
+1409,2016,Italy,No Degree of Separation,16.0,124.0
+1410,2016,Azerbaijan,Miracle,17.0,117.0
+1411,2016,Serbia,Goodbye (Shelter),18.0,115.0
+1412,2016,Hungary,Pioneer,19.0,108.0
+1413,2016,Georgia,Midnight Gold,20.0,104.0
+1414,2016,Cyprus,Alter Ego,21.0,96.0
+1415,2016,Spain,Say Yay!,22.0,77.0
+1416,2016,Croatia,Lighthouse,23.0,73.0
+1417,2016,United Kingdom,You're Not Alone,24.0,62.0
+1418,2016,Czech Republic,I Stand,25.0,41.0
+1419,2016,Germany,Ghost,26.0,11.0
+1420,2016,Bosnia & Herzegovina,Ljubav Je,,
+1421,2016,North Macedonia,Dona,,
+1422,2016,Belarus,Help You Fly,,
+1423,2016,San Marino,I Didn't Know,,
+1424,2016,Norway,Icebreaker,,
+1425,2016,Montenegro,The Real Thing,,
+1426,2016,Slovenia,Blue and Red,,
+1427,2016,Iceland,Hear Them Calling,,
+1428,2016,Finland,Sing It Away,,
+1429,2016,Ireland,Sunlight,,
+1430,2016,Albania,Fairytale,,
+1431,2016,Greece,Utopian Land,,
+1432,2016,Denmark,Soldiers of Love,,
+1433,2016,Moldova,Falling Stars,,
+1434,2016,Switzerland,The Last of Our Kind,,
+1435,2016,Estonia,Play,,
+1436,2017,Portugal,Amar Pelos Dois,1.0,758.0
+1437,2017,Bulgaria,Beautiful Mess,2.0,615.0
+1438,2017,Moldova,Hey Mamma,3.0,374.0
+1439,2017,Belgium,City Lights,4.0,363.0
+1440,2017,Sweden,I Can't Go On,5.0,344.0
+1441,2017,Italy,Occidentali's Karma,6.0,334.0
+1442,2017,Romania,Yodel It!,7.0,282.0
+1443,2017,Hungary,Origo,8.0,200.0
+1444,2017,Australia,Don't Come Easy,9.0,173.0
+1445,2017,Norway,Grab the Moment,10.0,158.0
+1446,2017,Netherlands,Lights And Shadows,11.0,150.0
+1447,2017,France,Requiem,12.0,135.0
+1448,2017,Croatia,My Friend,13.0,128.0
+1449,2017,Azerbaijan,Skeletons,14.0,120.0
+1450,2017,United Kingdom,Never Give Up on You,15.0,111.0
+1451,2017,Austria,Running On Air,16.0,93.0
+1452,2017,Belarus,Historyja Majho Zyccia,17.0,83.0
+1453,2017,Armenia,Fly With Me,18.0,79.0
+1454,2017,Greece,This is Love,19.0,77.0
+1455,2017,Denmark,Where I Am,20.0,77.0
+1456,2017,Cyprus,Gravity,21.0,68.0
+1457,2017,Poland,Flashlight,22.0,64.0
+1458,2017,Israel,I Feel Alive,23.0,39.0
+1459,2017,Ukraine,Time,24.0,36.0
+1460,2017,Germany,Perfect Life,25.0,6.0
+1461,2017,Spain,Do It for Your Lover,26.0,5.0
+1462,2017,Georgia,Keep The Faith,,
+1463,2017,Serbia,In Too Deep,,
+1464,2017,Switzerland,Apollo,,
+1465,2017,Finland,Blackbird,,
+1466,2017,Ireland,Dying To Try,,
+1467,2017,Estonia,Verona,,
+1468,2017,Czech Republic,My Turn,,
+1469,2017,Albania,World,,
+1470,2017,North Macedonia,Dance Alone,,
+1471,2017,Iceland,Paper,,
+1472,2017,Montenegro,Space,,
+1473,2017,Malta,Breathlessly,,
+1474,2017,Lithuania,Rain Of Revolution,,
+1475,2017,Slovenia,On My Way,,
+1476,2017,Latvia,Line,,
+1477,2017,San Marino,Spirit Of The Night,,
+1478,2018,Israel,Toy,1.0,529.0
+1479,2018,Cyprus,Fuego,2.0,436.0
+1480,2018,Austria,Nobody But You,3.0,342.0
+1481,2018,Germany,You Let Me Walk Alone,4.0,340.0
+1482,2018,Italy,Non Mi Avete Fatto Niente,5.0,308.0
+1483,2018,Czech Republic,Lie To Me,6.0,281.0
+1484,2018,Sweden,Dance You Off,7.0,274.0
+1485,2018,Estonia,La Forza,8.0,245.0
+1486,2018,Denmark,Higher Ground,9.0,226.0
+1487,2018,Moldova,My Lucky Day,10.0,209.0
+1488,2018,Albania,Mall,11.0,184.0
+1489,2018,Lithuania,When We're Old,12.0,181.0
+1490,2018,France,Mercy,13.0,173.0
+1491,2018,Bulgaria,Bones,14.0,166.0
+1492,2018,Norway,That's How You Write a Song,15.0,144.0
+1493,2018,Ireland,Together,16.0,136.0
+1494,2018,Ukraine,Under the Ladder,17.0,130.0
+1495,2018,Netherlands,Outlaw In 'Em,18.0,121.0
+1496,2018,Serbia,Nova Deca,19.0,113.0
+1497,2018,Australia,We Got Love,20.0,99.0
+1498,2018,Hungary,Viszlát Nyár,21.0,93.0
+1499,2018,Slovenia,"Hvala, ne!",22.0,64.0
+1500,2018,Spain,Tu Canción,23.0,61.0
+1501,2018,United Kingdom,Storm,24.0,48.0
+1502,2018,Finland,Monsters,25.0,46.0
+1503,2018,Portugal,O Jardim,26.0,39.0
+1504,2018,Romania,Goodbye,,
+1505,2018,Latvia,Funny Girl,,
+1506,2018,Malta,Taboo,,
+1507,2018,Azerbaijan,X My Heart,,
+1508,2018,Belgium,A Matter of Time,,
+1509,2018,Switzerland,Stones,,
+1510,2018,Poland,Light Me Up,,
+1511,2018,Greece,Oniro Mou,,
+1512,2018,Armenia,Qami,,
+1513,2018,Russia,I Won't Break,,
+1514,2018,Belarus,Forever,,
+1515,2018,Croatia,Crazy,,
+1516,2018,Montenegro,Inje,,
+1517,2018,San Marino,Who We Are,,
+1518,2018,Georgia,For You,,
+1519,2018,North Macedonia,Lost And Found,,
+1520,2018,Iceland,Our Choice,,
+1521,2019,Netherlands,Arcade,1.0,498.0
+1522,2019,Italy,Soldi,2.0,472.0
+1523,2019,Russia,Scream,3.0,370.0
+1524,2019,Switzerland,She Got Me,4.0,364.0
+1525,2019,Sweden,Too Late for Love,5.0,334.0
+1526,2019,Norway,Spirit in the Sky,6.0,331.0
+1527,2019,North Macedonia,Proud,7.0,305.0
+1528,2019,Azerbaijan,Truth,8.0,302.0
+1529,2019,Australia,Zero Gravity,9.0,284.0
+1530,2019,Iceland,Hatrið mun sigra,10.0,232.0
+1531,2019,Czech Republic,Friend of a Friend,11.0,157.0
+1532,2019,Denmark,Love Is Forever,12.0,120.0
+1533,2019,Cyprus,Replay,13.0,109.0
+1534,2019,Malta,Chameleon,14.0,107.0
+1535,2019,Slovenia,Sebi,15.0,105.0
+1536,2019,France,Roi,16.0,105.0
+1537,2019,Albania,Ktheju Tokës,17.0,90.0
+1538,2019,Serbia,Kruna,18.0,89.0
+1539,2019,San Marino,Say Na Na Na,19.0,77.0
+1540,2019,Estonia,Storm,20.0,76.0
+1541,2019,Greece,Better Love,21.0,74.0
+1542,2019,Spain,La Venda,22.0,54.0
+1543,2019,Israel,Home,23.0,35.0
+1544,2019,Belarus,Like It,24.0,31.0
+1545,2019,Germany,Sister,25.0,24.0
+1546,2019,United Kingdom,Bigger Than Us,26.0,11.0
+1547,2019,Poland,Pali się,,
+1548,2019,Hungary,Az én apám,,
+1549,2019,Lithuania,Run with the Lions,,
+1550,2019,Moldova,Stay,,
+1551,2019,Belgium,Wake Up,,
+1552,2019,Romania,On a Sunday,,
+1553,2019,Georgia,Keep on Going,,
+1554,2019,Croatia,The Dream,,
+1555,2019,Portugal,Telemóveis,,
+1556,2019,Latvia,That Night,,
+1557,2019,Armenia,Walking Out,,
+1558,2019,Montenegro,Heaven,,
+1559,2019,Finland,Look Away,,
+1560,2019,Austria,Limits,,
+1561,2019,Ireland,22,,
+1562,2020,France,The Best in Me,,
+1563,2020,Germany,Violent Thing,,
+1564,2020,Italy,Fai rumore,,
+1565,2020,Netherlands,Grow,,
+1566,2020,Spain,Universo,,
+1567,2020,United Kingdom,My Last Breath,,
+1568,2020,Australia,Don't Break Me,,
+1569,2020,Belarus,Da vidna,,
+1570,2020,Ireland,Story Of My Life,,
+1571,2020,Lithuania,On Fire,,
+1572,2020,North Macedonia,You,,
+1573,2020,Russia,Uno,,
+1574,2020,Slovenia,Voda,,
+1575,2020,Sweden,Move,,
+1576,2020,Azerbaijan,Cleopatra,,
+1577,2020,Belgium,Release Me,,
+1578,2020,Croatia,Divlji vjetre,,
+1579,2020,Cyprus,Running,,
+1580,2020,Israel,Feker Libi,,
+1581,2020,Malta,All Of My Love,,
+1582,2020,Norway,Attention,,
+1583,2020,Romania,Alcohol You,,
+1584,2020,Ukraine,Solovey,,
+1585,2020,Austria,Alive,,
+1586,2020,Czech Republic,Kemama,,
+1587,2020,Estonia,What Love Is,,
+1588,2020,Greece,Superg!rl​,,
+1589,2020,Iceland,Think About Things,,
+1590,2020,Moldova,Prison,,
+1591,2020,Poland,Empires,,
+1592,2020,San Marino,Freaky!,,
+1593,2020,Serbia,Hasta la vista,,
+1594,2020,Albania,Fall From The Sky,,
+1595,2020,Armenia,Chains On You,,
+1596,2020,Bulgaria,Tears Getting Sober,,
+1597,2020,Denmark,Yes,,
+1598,2020,Finland,Looking Back,,
+1599,2020,Georgia,Take Me As I Am,,
+1600,2020,Latvia,Still Breathing,,
+1601,2020,Portugal,Medo de sentir,,
+1602,2020,Switzerland,Répondez-moi,,
