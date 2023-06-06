@@ -29,7 +29,7 @@ def transfer():
 
     # CUS7 is the customer transfer. Create new endpoint.
     # EUS10 is the employee transfer.
-    # manageCustor/ er EUS!=
+    # manageCustor/ er EUS!=x
     # transfer/  må være CUS7
     # move to customer DONE
     # duplicate back and change database access here

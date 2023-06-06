@@ -1,18 +1,20 @@
 from flask import Flask
-from flask import render_template
+from flask import render_template, request, url_for, redirect
+from flask_sqlalchemy import SQLAlchemy
+import psycopg2
+from config import config
+import os
+
 
 app = Flask(__name__)
 
-#Using a decorator to bind root URL to a function, i.e. navigating to root page, will execute the 
-#following function, which will load the hello.html page
-@app.route("/")
-def hello_world(name=None):
+# #Using a decorator to bind root URL to a function, i.e. navigating to root page, will execute the 
+# #following function, which will load the hello.html page
+# @app.route("/")
+# def hello_world(name=None):
 
-    #Perform some SQL
+#     #Perform some SQL
 
-<<<<<<< Updated upstream
-    return render_template('index.html', name='Emlily')
-=======
 #     return render_template('index.html', name='Emlily')
 
 
@@ -50,8 +52,8 @@ def index():
     return render_template('index.html', books=books)
 
 #Define html methods
-@app.route('/login/', methods=('GET', 'POST'))
-def login():
+@app.route('/create/', methods=('GET', 'POST'))
+def create():
     if request.method == 'POST':
         title = request.form['title']
         author = request.form['author']
@@ -67,12 +69,11 @@ def login():
         cur.close()
         conn.close()
         return redirect(url_for('index'))
-    return render_template('login.html')
->>>>>>> Stashed changes
+    return render_template('create.html')
 
 
 #Checks if scripts is executed directly from command line
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=True, port=5001, host='0.0.0.0')
 
 
