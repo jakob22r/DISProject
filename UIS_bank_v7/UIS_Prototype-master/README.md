@@ -13,7 +13,7 @@ Run the code below to install the necessary modules.
 2. run schema.sql, schema_ins.sql, schema_upd.sql, schema_upd_2.sql in your database.
 
 ## Running flask
-### The python way
+### The python way  
 
 $ python3 run.py
 
