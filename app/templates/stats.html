@@ -13,11 +13,11 @@
         <p>Lookup funny eurovision statistics in our database</p>
         <br>
         <div style="border-style: dotted;"">
-            <h3><b>10 latests winner</b></h3>
+            <h3><b>10 latests winners</b></h3>
             <p><b>Year | Country | Song Title</b></p>
             {% for tuple in tups %}
             <div>
-                <p>{{ tuple }}</p>
+                <p>{{ tuple[0]}} | {{ tuple[1] }} | {{tuple[2]}}</p>
             </div>
             {% endfor %}
         </div>
