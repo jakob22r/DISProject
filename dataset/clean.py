@@ -49,7 +49,7 @@ PYsongs_df = PYsongs_df[PYsongs_df['year'] <= 2019]
 PYsongs_df.to_csv('previousYearsSongs.csv', index=False)
 
 #new song
-newsongs_colmns = ['year','to_country', 'song'] 
+newsongs_colmns = ['song', 'year','to_country'] 
 newSongs_df = df[newsongs_colmns]
 newSongs_df = newSongs_df[newSongs_df['year'] > 2019]
 newSongs_df.to_csv('upcommingYearSongs.csv', index=False)

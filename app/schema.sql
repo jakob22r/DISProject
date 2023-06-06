@@ -66,6 +66,8 @@ CREATE TABLE IF NOT EXISTS s.PreviousYearsSongs
 \COPY s.PreviousYearsSongs FROM '/Users/jakobsve/Documents/GitHub/DISProject/dataset/previousYearsSongs.csv' DELIMITER ',' CSV HEADER ENCODING 'UTF-8';
 -- \COPY UpcomingYearSongs FROM '/Users/jakobsve/Documents/GitHub/DISProject/dataset/upcommingYearSongs.csv' DELIMITER ',' CSV HEADER ENCODING 'UTF-8';
 
--- yet to be made data
---COPY Users FROM '/dataset/users.csv' DELIMITER ',';
+-- yet to be tested outside pgAdmin
+-- \i users.sql
+
+--yet to be made
 --COPY Votes FROM '/dataset/votes.csv' DELIMITER ',';
