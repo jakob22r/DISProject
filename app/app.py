@@ -47,7 +47,6 @@ def stats():
     winners = select_winner_songs_last10years(conn)
     null_p = select_null_points(conn)
 
-
     form = SearchYearForm()
     if request.method == 'POST':
 
@@ -66,11 +65,14 @@ def login():
 
 @app.route('/vote', methods=('GET', 'POST'))
 def vote():
-    if request.method=='POST':
-        #do nothing right now
-        return "something"
-    
-    return render_template('vote.html')
+    votes = count_votes(conn)
+    titles = upcomingsongs_titles(conn)
+
+    if request.method == 'POST':
+
+        return render_template('vote.html', votes_tups=votes, title_tups=titles)    
+
+    return render_template('vote.html', votes_tups=votes, title_tups=titles)
 
 
 #Below code is less relevant
