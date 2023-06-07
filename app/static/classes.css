@@ -19,3 +19,8 @@
     display: flex;
     align-items: stretch;
   }
+
+  .center-div-content {
+    margin-left: 10%;
+    margin-right: 10%;
+  }

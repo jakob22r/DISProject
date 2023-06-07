@@ -6,8 +6,5 @@ def select_winner_songs_last10years(conn):
     """
     cur.execute(sql)
     tuple_resultset = cur.fetchall()
-    len = 0
-    for item in tuple_resultset:
-        len = len + 1
     cur.close()
-    return tuple_resultset, len #Return to caller
+    return tuple_resultset #Return to caller

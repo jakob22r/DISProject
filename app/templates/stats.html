@@ -3,9 +3,6 @@
 {% block title %}Statistics  {% endblock %}
 
 {% block content %}
-
-
-
 <div class="container">
     <div class="row justify-content-center">
       <div class="col-9" style="text-align: center;">
@@ -14,8 +11,9 @@
         <br>
         <div style="border-style: dotted;"">
             <h3><b>10 latests winners</b></h3>
+            <p class="center-div-content"><b>Note:</b> Since the dataset goes up until 2020, we assume the last 10 years to be 2010-2019 and the upcoming year to be 2020.</p>
             <p><b>Year | Country | Song Title</b></p>
-            {% for tuple in tups %}
+            {% for tuple in winner_tups %}
             <div>
                 <p>{{ tuple[0]}} | {{ tuple[1] }} | {{tuple[2]}}</p>
             </div>
@@ -23,7 +21,7 @@
         </div>
         <br>
         <div style="border-style: dotted;"">
-            <p>Songs who got 0 points in the final</p>
+            <p>Songs from last who got 0 points in the final</p>
         </div>
         <br>
         <div style="border-style: dotted;"">
@@ -32,5 +30,4 @@
       </div>
     </div>
   </div>
-
 {% endblock %}

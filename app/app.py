@@ -43,8 +43,8 @@ def index():
 
 @app.route('/stats')
 def stats():
-    data_tuples, len = select_winner_songs_last10years(conn)
-    return render_template('stats.html', tups=data_tuples)
+    winners = select_winner_songs_last10years(conn)
+    return render_template('stats.html', winner_tups=winners)
 
 @app.route('/login')
 def login():
