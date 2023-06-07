@@ -21,7 +21,13 @@
         </div>
         <br>
         <div style="border-style: dotted;"">
-            <p>Songs from last who got 0 points in the final</p>
+            <p>Songs who got 0 points in the final</p>
+            <p><b>Year | Country | Song Title </b></p>
+            {% for tuple in null_tups %}
+            <div>
+              <p>{{ tuple[0] }} | {{ tuple[1] }} | {{ tuple[2] }}</p>
+            </div>
+            {% endfor %}
             <!-- TODO: Create a for loop like with winners and display data like we did there -->
         </div>
         <br>

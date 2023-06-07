@@ -45,13 +45,13 @@ PYsongs_colmns = ['song', 'year', 'place_final', 'points_final', 'to_country']
 PYsongs_df = df[PYsongs_colmns]
 PYsongs_df = PYsongs_df.drop_duplicates()
 PYsongs_df['song'] = PYsongs_df['song'].apply(lambda x: re.sub(',', '', str(x))) #FIX
-PYsongs_df = PYsongs_df[PYsongs_df['year'] <= 2019]
+PYsongs_df = PYsongs_df[PYsongs_df['year'] <= 2018]
 PYsongs_df.to_csv('previousYearsSongs.csv', index=False)
 
 #new song
 newsongs_colmns = ['song', 'year','to_country'] 
 newSongs_df = df[newsongs_colmns]
-newSongs_df = newSongs_df[newSongs_df['year'] > 2019]
+newSongs_df = newSongs_df[newSongs_df['year'] > 2018]
 newSongs_df.to_csv('upcommingYearSongs.csv', index=False)
 
 #preforms

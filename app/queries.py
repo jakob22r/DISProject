@@ -10,4 +10,10 @@ def select_winner_songs_last10years(conn):
     return tuple_resultset #Return to caller
 
 
-#TODO: Add function that queiries Songs from last who got 0 points in the final
+def select_null_points(conn):
+    cur = conn.cursor()
+    sql = """SELECT p.year, p.countryName, p.title FROM s.previousyearssongs p
+    WHERE p.pointsInFinal = 0;"""
+    cur.execute(sql)
+    tuple_resulset = cur.fetchall()
+    return tuple_resulset

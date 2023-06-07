@@ -59,12 +59,19 @@ CREATE TABLE IF NOT EXISTS s.Votes
     FOREIGN KEY (title, year, countryName) REFERENCES UpcomingYearSongs);
 
 -- put this in its own file
-\COPY s.Artists FROM '/Users/jakobsve/Documents/GitHub/DISProject/dataset/artists.csv' DELIMITER ',';
-\COPY s.Countries FROM '/Users/jakobsve/Documents/GitHub/DISProject/dataset/countries.csv' DELIMITER ',' CSV HEADER ENCODING 'UTF-8';
-\COPY s.Songs FROM '/Users/jakobsve/Documents/GitHub/DISProject/dataset/songs.csv' DELIMITER ',' CSV HEADER ENCODING 'UTF-8';
-\COPY s.Performs FROM '/Users/jakobsve/Documents/GitHub/DISProject/dataset/performs.csv' DELIMITER ',' CSV HEADER ENCODING 'UTF-8';
-\COPY s.PreviousYearsSongs FROM '/Users/jakobsve/Documents/GitHub/DISProject/dataset/previousYearsSongs.csv' DELIMITER ',' CSV HEADER ENCODING 'UTF-8';
-\COPY s.UpcomingYearSongs FROM '/Users/jakobsve/Documents/GitHub/DISProject/dataset/upcommingYearSongs.csv' DELIMITER ',' CSV HEADER ENCODING 'UTF-8';
+--\COPY s.Artists FROM '/Users/jakobsve/Documents/GitHub/DISProject/dataset/artists.csv' DELIMITER ',';
+-- \COPY s.Countries FROM '/Users/jakobsve/Documents/GitHub/DISProject/dataset/countries.csv' DELIMITER ',' CSV HEADER ENCODING 'UTF-8';
+-- \COPY s.Songs FROM '/Users/jakobsve/Documents/GitHub/DISProject/dataset/songs.csv' DELIMITER ',' CSV HEADER ENCODING 'UTF-8';
+--\COPY s.Performs FROM '/Users/jakobsve/Documents/GitHub/DISProject/dataset/performs.csv' DELIMITER ',' CSV HEADER ENCODING 'UTF-8';
+-- \COPY s.PreviousYearsSongs FROM '/Users/jakobsve/Documents/GitHub/DISProject/dataset/previousYearsSongs.csv' DELIMITER ',' CSV HEADER ENCODING 'UTF-8';
+-- \COPY s.UpcomingYearSongs FROM '/Users/jakobsve/Documents/GitHub/DISProject/dataset/upcommingYearSongs.csv' DELIMITER ',' CSV HEADER ENCODING 'UTF-8';
+
+\COPY s.Artists FROM 'C:\Users\Emily Honey\DISProject\dataset\artists.csv' DELIMITER ',';
+\COPY s.Countries FROM 'C:\Users\Emily Honey\DISProject\dataset\countries.csv' DELIMITER ',' CSV HEADER ENCODING 'UTF-8';
+\COPY s.Songs FROM 'C:\Users\Emily Honey\DISProject\dataset\songs.csv' DELIMITER ',' CSV HEADER ENCODING 'UTF-8';
+\COPY s.Performs FROM 'C:\Users\Emily Honey\DISProject\dataset\performs.csv' DELIMITER ',' CSV HEADER ENCODING 'UTF-8';
+\COPY s.PreviousYearsSongs FROM 'C:\Users\Emily Honey\DISProject\dataset\previousYearsSongs.csv' DELIMITER ',' CSV HEADER ENCODING 'UTF-8';
+\COPY s.UpcomingYearSongs FROM 'C:\Users\Emily Honey\DISProject\dataset\upcommingYearSongs.csv' DELIMITER ',' CSV HEADER ENCODING 'UTF-8';
 
 -- yet to be tested outside pgAdmin
 \i users.sql

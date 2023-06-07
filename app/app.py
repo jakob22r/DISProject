@@ -45,9 +45,9 @@ def index():
 def stats():
     #TODO ADD CALL TO FUNCTION IMPLEMENTED IN QUERIES LIKE WITH WINNERS
     winners = select_winner_songs_last10years(conn)
+    null_p = select_null_points(conn)
 
-    #TODO GIVE VRB A NAME TO USE IN HTML FILE, E.G points0_tups AND GIVE IT AS AN ARG TO stats.html, like with winner_tups
-    return render_template('stats.html', winner_tups=winners)
+    return render_template('stats.html', winner_tups=winners, null_tups=null_p)
 
 
 @app.route('/login')
