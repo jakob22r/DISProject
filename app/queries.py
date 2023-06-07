@@ -25,3 +25,13 @@ def select_winner_by_year(conn, year):
     cur.execute(sql, (year,))
     tuple_resultset = cur.fetchall()
     return tuple_resultset
+
+def count_votes(conn):
+    cur = conn.cursor()
+    sql = """SELECT v.countryName, COUNT(v.userid) 
+            FROM s.votes v 
+            GROUP BY v.countryName
+            ORDER BY (COUNT(v.userid)) DESC;"""
+    cur.execute(sql)
+    tuple_resultset = cur.fetchall()
+    return tuple_resultset

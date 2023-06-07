@@ -64,6 +64,14 @@ def stats():
 def login():
     return render_template('login.html')
 
+@app.route('/vote', methods=('GET', 'POST'))
+def vote():
+    if request.method=='POST':
+        #do nothing right now
+        return "something"
+    
+    return render_template('vote.html')
+
 
 #Below code is less relevant
 
