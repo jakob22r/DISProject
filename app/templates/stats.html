@@ -38,7 +38,9 @@
                 {{ form.year(size=10) }}
                 {{ form.submit }}
                 <br>
+                {% if qrs %}
                 <p>{{(qrs[0])[0]}} won with the song <b>{{(qrs[0])[1]}}</b></p> 
+                {% endif %}
             </form>
             <br>
         </div>

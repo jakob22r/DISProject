@@ -57,7 +57,7 @@ def stats():
             winner_year_x = select_winner_by_year(conn,year)
             return render_template('stats.html', winner_tups=winners, null_tups=null_p, form=form, qrs=winner_year_x)
 
-    return render_template('stats.html', winner_tups=winners, null_tups=null_p, form=form, qrs=("",""))
+    return render_template('stats.html', winner_tups=winners, null_tups=null_p, form=form)
 
 
 @app.route('/login')
