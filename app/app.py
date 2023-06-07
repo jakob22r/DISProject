@@ -2,6 +2,7 @@ from flask import Flask
 from flask import render_template, request, url_for, redirect
 from flask_sqlalchemy import SQLAlchemy
 from queries import *
+from forms import *
 import psycopg2
 from config import config
 import os
@@ -9,7 +10,7 @@ import os
 
 app = Flask(__name__)
 
-
+app.config['SECRET_KEY'] = 'fc089b9218301ad987914c53481bff05' #Not the safest solution
 
 #Function to connect to postgresql server
 def connect():
@@ -41,13 +42,22 @@ def index():
     return render_template('index.html')
 
 
-@app.route('/stats')
+@app.route('/stats', methods=('GET', 'POST'))
 def stats():
-    #TODO ADD CALL TO FUNCTION IMPLEMENTED IN QUERIES LIKE WITH WINNERS
     winners = select_winner_songs_last10years(conn)
     null_p = select_null_points(conn)
 
-    return render_template('stats.html', winner_tups=winners, null_tups=null_p)
+
+    form = SearchYearForm()
+    if request.method == 'POST':
+
+        if form.validate_on_submit():
+            year = form.year.data
+            #Process data as needed
+            winner_year_x = select_winner_by_year(conn,year)
+            return render_template('stats.html', winner_tups=winners, null_tups=null_p, form=form, qrs=winner_year_x)
+
+    return render_template('stats.html', winner_tups=winners, null_tups=null_p, form=form, qrs=("",""))
 
 
 @app.route('/login')

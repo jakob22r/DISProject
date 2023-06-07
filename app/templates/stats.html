@@ -28,11 +28,19 @@
               <p>{{ tuple[0] }} | {{ tuple[1] }} | {{ tuple[2] }}</p>
             </div>
             {% endfor %}
-            <!-- TODO: Create a for loop like with winners and display data like we did there -->
         </div>
         <br>
         <div style="border-style: dotted;"">
-            <p>Search function, who won in year xxx</p>
+            <form method="POST">
+                {{ form.csrf_token }}
+                <h3>Enter a year</h3>
+                <p>To find the winner from that year</p>
+                {{ form.year(size=10) }}
+                {{ form.submit }}
+                <br>
+                <p>{{(qrs[0])[0]}} won with the song <b>{{(qrs[0])[1]}}</b></p> 
+            </form>
+            <br>
         </div>
       </div>
     </div>
