@@ -1,7 +1,7 @@
 from flask import Flask
 from flask import render_template, request, url_for, redirect
 from flask_sqlalchemy import SQLAlchemy
-from queries import select_winner_songs_last10years
+from queries import *
 import psycopg2
 from config import config
 import os
@@ -43,13 +43,16 @@ def index():
 
 @app.route('/stats')
 def stats():
+    #TODO ADD CALL TO FUNCTION IMPLEMENTED IN QUERIES LIKE WITH WINNERS
     winners = select_winner_songs_last10years(conn)
+
+    #TODO GIVE VRB A NAME TO USE IN HTML FILE, E.G points0_tups AND GIVE IT AS AN ARG TO stats.html, like with winner_tups
     return render_template('stats.html', winner_tups=winners)
+
 
 @app.route('/login')
 def login():
     return render_template('login.html')
-
 
 
 #Below code is less relevant

@@ -8,3 +8,6 @@ def select_winner_songs_last10years(conn):
     tuple_resultset = cur.fetchall()
     cur.close()
     return tuple_resultset #Return to caller
+
+
+#TODO: Add function that queiries Songs from last who got 0 points in the final
