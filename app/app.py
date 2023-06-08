@@ -64,6 +64,17 @@
 # def login():
 #     return render_template('login.html')
 
+# @app.route('/vote', methods=('GET', 'POST'))
+# def vote():
+#     votes = count_votes(conn)
+#     titles = upcomingsongs_titles(conn)
+
+#     if request.method == 'POST':
+
+#         return render_template('vote.html', votes_tups=votes, title_tups=titles)    
+
+#     return render_template('vote.html', votes_tups=votes, title_tups=titles)
+
 
 # #Below code is less relevant
 
