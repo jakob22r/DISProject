@@ -1,5 +1,3 @@
-from . import forms, queries, models
-
 def select_winner_songs_last10years(conn):
     cur = conn.cursor()
     sql = """

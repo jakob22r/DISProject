@@ -1,10 +1,4 @@
-from flask import Blueprint
-from flask import Flask
-from flask import render_template, request, url_for, redirect
-from flask_sqlalchemy import SQLAlchemy
-from flask_login import LoginManager, login_user, UserMixin
-from . import forms, queries
-from flask import Blueprint
+from flask import Blueprint, render_template
 
 main = Blueprint('main', __name__)
 

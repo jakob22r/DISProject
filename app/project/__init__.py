@@ -1,9 +1,8 @@
-from flask import Flask
-from flask_sqlalchemy import SQLAlchemy
-from flask_bcrypt import Bcrypt
 import psycopg2
+from flask import Flask
+from flask_bcrypt import Bcrypt
 from config import config
-from flask_login import UserMixin, LoginManager, current_user, login_user, login_required
+from flask_login import LoginManager
 from . import models, queries as q
 
 # init SQLAlchemy so we can use it later in our models
