@@ -61,21 +61,31 @@ def count_votes(conn):
 
 def add_vote(conn, userID, title):
     cur = conn.cursor()
-    #first find the country associated with the song
+    countryName = country_from_song(conn, title)
+    #now we add the vote to the database
+    sql = """INSERT INTO s.votes(userID, title, year, countryName)
+	        VALUES (%s, %s, 2019, %s);"""
+    cur.execute(sql, (userID, title, countryName[0]))
+    return
+
+def country_from_song(conn, title):
+    cur = conn.cursor()
     country_sql = """SELECT u.countryName FROM s.upcomingyearsongs u
                     WHERE u.title=%s;"""
     cur.execute(country_sql, (title,))
     countryName = cur.fetchall()
+    return countryName[0]
 
-    #now we add the vote to the database
-    sql = """INSERT INTO s.votes(userID, title, year, countryName)
-	        VALUES (%s, %s, 2019, %s);"""
+def unique_vote(conn, title, userID):
+    cur = conn.cursor()
+    countryName = country_from_song(conn, title)
+    sql = """SELECT v.userid FROM s.votes v
+            WHERE v.userid=%s AND v.title=%s AND v.countryName=%s"""
     cur.execute(sql, (userID, title, countryName))
     conn.commit()
     res = cur.fetchall()
     cur.close()
     return res
-
 
 def upcomingsongs_titles(conn):
     cur = conn.cursor()

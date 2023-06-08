@@ -55,14 +55,31 @@ def signup():
         flash('New user successfully registered!', 'success')
         return redirect(url_for('auth.signup'))
 
-@auth.route('/vote')
+@auth.route('/vote', methods=['GET','POST'])
 @login_required
 def vote():
     votes = q.count_votes(conn)
     titles = q.upcomingsongs_titles(conn)
+    form = forms.TitelForm()
+    form.dropdown.choices = [(title[0], title[0]) for title in titles]
+
     if request.method == 'POST':
-        return render_template('vote.html', votes_tups=votes, title_tups=titles)    
-    return render_template('vote.html', votes_tups=votes, title_tups=titles)
+
+        if form.validate_on_submit():            
+            title = request.form.get('dropdown')
+            userID = current_user.get_id()
+
+            #ensure user has not voted for the song already
+            if len(q.unique_vote(conn, title, userID)) == 0:
+                q.add_vote(conn, userID, title)
+                #recalculate the placings after the user at voted
+                votes = q.count_votes(conn)
+                return render_template('vote.html', votes_tups=votes, form=form)
+            else: 
+                #render men med besked om du ikke kan stemme på den samme
+                flash("You cannot vote for the same song more than once. Pick another favourite!")
+       
+    return render_template('vote.html', votes_tups=votes, form=form)
 
 
 @auth.route('/stats', methods=('GET', 'POST'))

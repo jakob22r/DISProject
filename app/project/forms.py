@@ -16,3 +16,7 @@ class LoginForm(FlaskForm):
     username = StringField('userName', validators=[DataRequired()])
     password = PasswordField('password', validators=[DataRequired()])
     submit = SubmitField('Login')
+
+class TitelForm(FlaskForm):
+    dropdown = SelectField('Select title of the song you love:', choices=[])
+    submit = SubmitField('Vote')
