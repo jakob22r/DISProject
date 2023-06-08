@@ -87,9 +87,9 @@ def unique_vote(conn, title, userID):
     cur.close()
     return res
 
-def upcomingsongs_titles(conn):
+def upcomingsongs_titleNCountry(conn):
     cur = conn.cursor()
-    sql = """SELECT u.title FROM s.upcomingyearsongs u;"""
+    sql = """SELECT u.title, u.countryName FROM s.upcomingyearsongs u;"""
     cur.execute(sql)
     res = cur.fetchall()
     cur.close()

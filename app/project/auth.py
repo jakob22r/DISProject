@@ -59,19 +59,23 @@ def signup():
 @login_required
 def vote():
     votes = q.count_votes(conn)
-    titles = q.upcomingsongs_titles(conn)
+    titles = q.upcomingsongs_titleNCountry(conn)
+    upTitles = []
+    for title in titles:
+        upTitles.append(title[0].strip() + " (" + title[1].strip() + ")")
+
     form = forms.TitelForm()
-    form.dropdown.choices = [(title[0], title[0]) for title in titles]
+    form.dropdown.choices = [(title, title) for title in upTitles]
 
     if request.method == 'POST':
 
         if form.validate_on_submit():            
-            title = request.form.get('dropdown')
+            titel = request.form.get('dropdown').split()[0]
             userID = current_user.get_id()
 
             #ensure user has not voted for the song already
-            if len(q.unique_vote(conn, title, userID)) == 0:
-                q.add_vote(conn, userID, title)
+            if len(q.unique_vote(conn, titel, userID)) == 0:
+                q.add_vote(conn, userID, titel)
                 #recalculate the placings after the user at voted
                 votes = q.count_votes(conn)
                 return render_template('vote.html', votes_tups=votes, form=form)
