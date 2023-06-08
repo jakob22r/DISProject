@@ -1,9 +1,6 @@
-from flask import Blueprint, render_template, flash, request
-from flask_bcrypt import Bcrypt
+from flask import Blueprint, render_template, flash, request, url_for, redirect
 from . import forms, queries as q, models, conn, bcrypt
-from flask import render_template, request, url_for, redirect
-from werkzeug.security import generate_password_hash, check_password_hash
-from flask_login import UserMixin, login_user, current_user, logout_user, login_required
+from flask_login import login_user, current_user, logout_user, login_required
 
 auth = Blueprint('auth', __name__)
 

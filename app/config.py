@@ -1,10 +1,10 @@
-#To parse database.ini contents, such that it can be read by app.py
+#Setup to easily specify database settings in database.ini
 from configparser import ConfigParser
 
 def config(filename="database.ini", section="postgresql"):
     parser = ConfigParser()
     parser.read(filename)
-    #Parse into the below dictionary
+    #Parse into dict
     db = {}
     if parser.has_section(section):
         params = parser.items(section)
