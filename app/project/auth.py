@@ -40,6 +40,18 @@ def logout():
     flash('Logout successful.', 'success')
     return redirect(url_for('auth.login'))
 
+@auth.route('/vote')
+@login_required
+def vote():
+    votes = q.count_votes(conn)
+    titles = q.upcomingsongs_titles(conn)
+
+    if request.method == 'POST':
+
+        return render_template('vote.html', votes_tups=votes, title_tups=titles)    
+
+    return render_template('vote.html', votes_tups=votes, title_tups=titles)
+
 
 @auth.route('/stats', methods=('GET', 'POST'))
 @login_required #Check that user is logged in

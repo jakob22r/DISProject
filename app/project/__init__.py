@@ -36,7 +36,7 @@ login_manager.login_message_category = 'info'
 @login_manager.user_loader
 def load_user(user_id):
     cur = conn.cursor()
-    cur.execute("SELECT userID, userName FROM s.users WHERE userID = %s", (user_id,))
+    cur.execute("SELECT userID, userName FROM s.users WHERE userID=%s;", (user_id,))
     result = cur.fetchone()
     cur.close()
 
