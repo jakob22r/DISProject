@@ -20,16 +20,29 @@
         </div>
         <br>
         <div style="border-style: dotted;"">
-            <h3><b>Add your own vote </b></h3>
-            <label for="dropdown">Select title of the song you love:</label>
-                <select id="dropdown" name="dropdown">
-                    {% for title in  title_tups%}
-                        <option value="{{ option }}">{{ title[0] }}</option>
-                    {% endfor %}
-            </select>
-            <input type="submit" value="Vote">
-        <br>
+          <h3><b>Add your own vote </b></h3>
+          <form method="POST" action="/vote">
+            {{ form.csrf_token }}
+            {{ form.dropdown.label }}
+            {{ form.dropdown }}
+            {{ form.dropdown.choice}}
+            {{ form.submit }}
+          <br>
+          </form>
         </div>
+
+        <div class="row">
+          <div class="col-sm-12">
+              <div>
+                  {% with messages = get_flashed_messages() %}
+                  {% if messages %}
+                      <p>{{messages[0]}}</p>
+                  {% endif %}
+                  {% endwith %}
+              </div>
+          </div>
+      </div>
+
       </div>
     </div>
   </div>
