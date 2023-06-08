@@ -51,10 +51,8 @@ def vote():
 def stats():
     winners = q.select_winner_songs_last10years(conn)
     null_p = q.select_null_points(conn)
-
     form = forms.SearchYearForm()
     if request.method == 'POST':
-
         if form.validate_on_submit():
             year = form.year.data
             #Process data as needed

@@ -1,5 +1,6 @@
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
+from flask_bcrypt import Bcrypt
 import psycopg2
 from config import config
 from flask_login import UserMixin, LoginManager, current_user, login_user, login_required
@@ -29,14 +30,17 @@ app = Flask(__name__)
 app.config['SECRET_KEY'] = 'secret-key-goes-here'
 conn = connect()
 
+bcrypt = Bcrypt(app)
 login_manager = LoginManager(app)
 login_manager.login_view = 'auth.login'
 login_manager.login_message_category = 'info'
+
 
 @login_manager.user_loader
 def load_user(user_id):
     cur = conn.cursor()
     cur.execute("SELECT userID, userName FROM s.users WHERE userID=%s;", (user_id,))
+    #cur.execute("SELECT * FROM  s.users")
     result = cur.fetchone()
     cur.close()
 

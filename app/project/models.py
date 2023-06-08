@@ -6,4 +6,4 @@ class User(UserMixin):
         self.username = username
 
     def get_id(self):
-        return str(self.id)
+        return int(self.id)
