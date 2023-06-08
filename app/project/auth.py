@@ -13,7 +13,7 @@ def login():
         if form.validate_on_submit():
             username = form.username.data
             password = form.password.data
-            result = q.lookup_user(conn, username)
+            result = q.lookup_user_on_name(conn, username)
 
             if result and bcrypt.check_password_hash(result[1], password):
                 user_id = result[0]
@@ -46,10 +46,12 @@ def signup():
         password = form.password.data
         hashed_password = bcrypt.generate_password_hash(password).decode('utf-8')
 
-        #TODO: Check user with given ID does not already exist
-
-        q.insert_user(conn, id, username, hashed_password)
-        flash('New user successfully registered!', 'success')
+        #Check user with given ID does not already exist
+        if q.check_userid_and_name_not_taken(conn, id, username):
+            q.insert_user(conn, id, username, hashed_password)
+            flash('New user successfully registered!', 'success')
+        else:
+            flash('User with ID or name already exists!', 'error')
         return redirect(url_for('auth.signup'))
 
 @auth.route('/vote', methods=['GET','POST'])

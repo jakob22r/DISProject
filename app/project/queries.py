@@ -37,7 +37,7 @@ def user_not_exists(conn, userid):
     
     return False
 
-def lookup_user(conn, username):
+def lookup_user_on_name(conn, username):
     print("Lookup user")
     cur = conn.cursor()
     sql = """SELECT userID, password FROM s.users WHERE userName = %s;"""
@@ -100,3 +100,13 @@ def insert_user(conn, id, username, password_hash):
     cur.execute(sql, (password_hash, username, id))
     conn.commit()
     cur.close()
+
+def check_userid_and_name_not_taken(conn, id, username):
+    cur = conn.cursor()
+    sql = """SELECT u.userid FROM s.users u WHERE u.userid=%s OR u.userName=%s;"""
+    cur.execute(sql, (id, username))
+    tuple_resultset = cur.fetchall()
+    if len(tuple_resultset) == 0:
+        return True
+    return False
+
