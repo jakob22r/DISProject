@@ -16,6 +16,7 @@ def select_null_points(conn):
     WHERE p.pointsInFinal = 0;"""
     cur.execute(sql)
     tuple_resulset = cur.fetchall()
+    cur.close()
     return tuple_resulset
 
 def select_winner_by_year(conn, year):
@@ -24,6 +25,7 @@ def select_winner_by_year(conn, year):
     WHERE p.placingInFinal = 1 AND p.year = %s;"""
     cur.execute(sql, (year,))
     tuple_resultset = cur.fetchall()
+    cur.close()
     return tuple_resultset
 
 def user_not_exists(conn, userid):
@@ -31,7 +33,7 @@ def user_not_exists(conn, userid):
     sql = """SELECT u.userid FROM s.users u WHERE u.userid=%s;"""
     cur.execute(sql, (userid,))
     tuple_resultset = cur.fetchall()
-    
+    cur.close()
     if len(tuple_resultset) == 0:
         return True
     
@@ -57,22 +59,41 @@ def count_votes(conn):
     cur.close()
     return tuple_resultset
 
+def count_my_votes(conn, userID):
+    cur = conn.cursor()
+    sql = """SELECT v.countryName, v.title
+            FROM s.votes v 
+            WHERE v.userid = %s"""
+    cur.execute(sql, (userID,))
+    tuple_resultset = cur.fetchall()
+    cur.close()
+    return tuple_resultset
+    
+
+
 def add_vote(conn, userID, title):
     cur = conn.cursor()
     countryName = country_from_song(conn, title)
     #now we add the vote to the database
     sql = """INSERT INTO s.votes(userID, title, year, countryName)
 	        VALUES (%s, %s, 2019, %s);"""
-    cur.execute(sql, (userID, title, countryName[0]))
+    cur.execute(sql, (userID, title, countryName))
+    cur.close()
     return
 
 def country_from_song(conn, title):
+    print("Query title")
+    print(title)
     cur = conn.cursor()
     country_sql = """SELECT u.countryName FROM s.upcomingyearsongs u
                     WHERE u.title=%s;"""
     cur.execute(country_sql, (title,))
-    countryName = cur.fetchall()
-    return countryName[0]
+    query_result = cur.fetchone()
+    cur.close()
+    if query_result != None:
+        print("query result")
+        print(query_result[0])
+        return query_result[0]
 
 def unique_vote(conn, title, userID):
     cur = conn.cursor()
@@ -81,9 +102,11 @@ def unique_vote(conn, title, userID):
             WHERE v.userid=%s AND v.title=%s AND v.countryName=%s"""
     cur.execute(sql, (userID, title, countryName))
     conn.commit()
-    res = cur.fetchall()
+    tuple_resultset = cur.fetchall()
     cur.close()
-    return res
+    if len(tuple_resultset) == 0:
+        return True
+    return False
 
 def upcomingsongs_titleNCountry(conn):
     cur = conn.cursor()
@@ -106,6 +129,7 @@ def check_userid_and_name_not_taken(conn, id, username):
     sql = """SELECT u.userid FROM s.users u WHERE u.userid=%s OR u.userName=%s;"""
     cur.execute(sql, (id, username))
     tuple_resultset = cur.fetchall()
+    cur.close()
     if len(tuple_resultset) == 0:
         return True
     return False

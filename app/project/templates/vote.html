@@ -4,11 +4,18 @@
 
 {% block content%}
 <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-9" style="text-align: center;">
-        <h1>EuroFanClub members votes for this year</h1>
-        <p>Vote for your favourite song!</p>
-        <br>
+    <div class="row justify-content-end">
+        <div class="col-sm-9" style="text-align: center;">
+            <h1>EuroFanClub members votes for this year</h1>
+            <p>Vote for your favourite song!</p>
+            <br>
+        </div>
+        <div class="col-sm-3"
+            <br>
+        </div>
+    </div>
+    <div class="row justify-content-end">
+      <div class="col-sm-9" style="text-align: center;">
         <div style="border-style: dotted;"">
             <h3><b>Scoreboard</b></h3>
             <p><b> Country | Song Title | Votes </b></p>
@@ -19,32 +26,45 @@
             {% endfor %}
         </div>
         <br>
-        <div style="border-style: dotted;"">
-          <h3><b>Add your own vote </b></h3>
-          <form method="POST" action="/vote">
-            {{ form.csrf_token }}
-            {{ form.dropdown.label }}
-            {{ form.dropdown }}
-            {{ form.dropdown.choice}}
-            {{ form.submit }}
-          <br>
-          </form>
+            <div style="border-style: dotted;">
+            <h3><b>Add your own vote </b></h3>
+            <form method="POST" action="/vote">
+                {{ form.csrf_token }}
+                {{ form.dropdown.label }}
+                {{ form.dropdown }}
+                {{ form.dropdown.choice}}
+                {{ form.submit }}
+            <br>
+            </form>
+            </div>
+        </div> 
+
+        <div class="col-sm-3 center">
+            <div style="border-style: dotted;">
+                <h3><b>Your votes</b></h3>
+                <p><b>  Song Title | Country </b></p>
+                {% for tuple in my_votes_tups %}
+                <div>
+                    <p>{{ tuple[1]}} | {{ tuple[0] }}</p>
+                </div>
+                {% endfor %}
+            </div>
+            
         </div>
-
-        <div class="row">
-          <div class="col-sm-12">
-              <div>
-                  {% with messages = get_flashed_messages() %}
-                  {% if messages %}
-                      <p>{{messages[0]}}</p>
-                  {% endif %}
-                  {% endwith %}
-              </div>
-          </div>
-      </div>
-      <br>
-
-      </div>
     </div>
-  </div>
+    <div class="row">
+        <div class="col-sm-12">
+            <div>
+                {% with messages = get_flashed_messages() %}
+                {% if messages %}
+                <p>{{messages[0]}}</p>
+                {% endif %}
+                {% endwith %}
+            </div>
+        </div>
+    </div>
+    <br>
+    
+</div>
+
 {% endblock %}

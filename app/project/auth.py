@@ -61,28 +61,37 @@ def vote():
     titles = q.upcomingsongs_titleNCountry(conn)
     upTitles = []
     for title in titles:
-        upTitles.append(title[0].strip() + " (" + title[1].strip() + ")")
+        upTitles.append((title[0].strip(),"(" + title[1].strip() + ")"))
+    print(upTitles)
 
     form = forms.TitelForm()
-    form.dropdown.choices = [(title, title) for title in upTitles]
+    form.dropdown.choices = [title[0].strip() for title in titles]
+
+    #Get users current votes
+    userID = current_user.get_id()
+    my_votes = q.count_my_votes(conn, userID) #q.count_my_votes(conn, userID)
 
     if request.method == 'POST':
 
-        if form.validate_on_submit():            
-            titel = request.form.get('dropdown').split()[0]
-            userID = current_user.get_id()
+        if form.validate_on_submit():    
+            print("Submit")
+            print(request.form.get('dropdown'))        
+            titel = request.form.get('dropdown')
+
 
             #ensure user has not voted for the song already
-            if len(q.unique_vote(conn, titel, userID)) == 0:
+            if q.unique_vote(conn, titel, userID):
                 q.add_vote(conn, userID, titel)
-                #recalculate the placings after the user at voted
+                flash("Vote added!", 'success')
                 votes = q.count_votes(conn)
-                return render_template('vote.html', votes_tups=votes, form=form)
+                my_votes = q.count_my_votes(conn, userID)
+    
+                #recalculate the placings after the user at voted
             else: 
                 #render men med besked om du ikke kan stemme på den samme
                 flash("You cannot vote for the same song more than once. Pick another favourite!")
        
-    return render_template('vote.html', votes_tups=votes, form=form)
+    return render_template('vote.html', votes_tups=votes, form=form, my_votes_tups = my_votes)
 
 
 @auth.route('/stats', methods=('GET', 'POST'))
