@@ -3,9 +3,6 @@ from . import forms, queries as q, models, conn
 from flask import render_template, request, url_for, redirect
 from werkzeug.security import generate_password_hash, check_password_hash
 from flask_login import UserMixin, login_user, current_user, logout_user, login_required
-#from queries imp
-
-
 
 auth = Blueprint('auth', __name__)
 
@@ -36,7 +33,6 @@ def login():
 @login_required
 def logout():
     logout_user()
-    print("Logged out")
     flash('Logout successful.', 'success')
     return redirect(url_for('auth.login'))
 
@@ -45,18 +41,14 @@ def logout():
 def vote():
     votes = q.count_votes(conn)
     titles = q.upcomingsongs_titles(conn)
-
     if request.method == 'POST':
-
         return render_template('vote.html', votes_tups=votes, title_tups=titles)    
-
     return render_template('vote.html', votes_tups=votes, title_tups=titles)
 
 
 @auth.route('/stats', methods=('GET', 'POST'))
 @login_required #Check that user is logged in
 def stats():
-
     winners = q.select_winner_songs_last10years(conn)
     null_p = q.select_null_points(conn)
 
