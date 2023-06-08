@@ -44,7 +44,7 @@ CREATE TABLE IF NOT EXISTS s.UpcomingYearSongs
     FOREIGN KEY (year, countryName, title) REFERENCES s.Songs);
 
 CREATE TABLE IF NOT EXISTS s.Users
-    (password VARCHAR(50),
+    (password VARCHAR(120),
     userName VARCHAR(50),
     userID INTEGER,
     PRIMARY KEY (userID));

@@ -56,6 +56,7 @@ def count_votes(conn):
             ORDER BY (COUNT(v.userid)) DESC;"""
     cur.execute(sql)
     tuple_resultset = cur.fetchall()
+    cur.close()
     return tuple_resultset
 
 def add_vote(conn, userID, title):
@@ -70,7 +71,9 @@ def add_vote(conn, userID, title):
     sql = """INSERT INTO s.votes(userID, title, year, countryName)
 	        VALUES (%s, %s, 2019, %s);"""
     cur.execute(sql, (userID, title, countryName))
+    conn.commit()
     res = cur.fetchall()
+    cur.close()
     return res
 
 
@@ -79,4 +82,13 @@ def upcomingsongs_titles(conn):
     sql = """SELECT u.title FROM s.upcomingyearsongs u;"""
     cur.execute(sql)
     res = cur.fetchall()
+    cur.close()
     return res
+
+def insert_user(conn, id, username, password_hash):
+    cur = conn.cursor()
+    sql = """INSERT INTO s.users(password, userName, userID)
+	VALUES (%s, %s, %s);"""
+    cur.execute(sql, (password_hash, username, id))
+    conn.commit()
+    cur.close()

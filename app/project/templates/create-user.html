@@ -1,18 +1,17 @@
 {% extends "base.html" %}
 
-{% block title %}Login{% endblock %}
+{% block title %}Admin - Create user{% endblock %}
 
 {% block content %}
     <div class="row">
         <div class="col-sm-6">
             <div class="left-div-content-borders">
-                <h1>Register a new user</h1>
-                <form method="POST" action="/signup">
+                <h1>Create User</h1>
+                <form method="POST" action="/login">
                     {{ form.hidden_tag() }}
-                    {{ form.id.label }} {{ form.id(size=20)}}<br>
                     {{ form.username.label }} {{ form.username(size=20) }}<br>
                     {{ form.password.label }} {{ form.password(size=20) }}<br>
-                    <input type="submit" value="Create">
+                    <input type="submit" value="login">
             </div>
             </form>
         </div>

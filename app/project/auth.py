@@ -1,5 +1,6 @@
-from flask import Blueprint, render_template, flash
-from . import forms, queries as q, models, conn
+from flask import Blueprint, render_template, flash, request
+from flask_bcrypt import Bcrypt
+from . import forms, queries as q, models, conn, bcrypt
 from flask import render_template, request, url_for, redirect
 from werkzeug.security import generate_password_hash, check_password_hash
 from flask_login import UserMixin, login_user, current_user, logout_user, login_required
@@ -17,7 +18,7 @@ def login():
             password = form.password.data
             result = q.lookup_user(conn, username)
 
-            if result and password == result[1]:
+            if result and bcrypt.check_password_hash(result[1], password):
                 user_id = result[0]
                 user = models.User(user_id, username)
                 login_user(user)
@@ -35,6 +36,24 @@ def logout():
     logout_user()
     flash('Logout successful.', 'success')
     return redirect(url_for('auth.login'))
+
+
+@auth.route('/signup', methods=['GET', 'POST'])
+def signup():
+    form = forms.CreateUserForm()
+    if request.method == 'GET':
+        return render_template('signup.html', form=form)
+    elif request.method =='POST':
+        id = form.id.data
+        username = form.username.data
+        password = form.password.data
+        hashed_password = bcrypt.generate_password_hash(password).decode('utf-8')
+
+        #TODO: Check user with given ID does not already exist
+
+        q.insert_user(conn, id, username, hashed_password)
+        flash('New user successfully registered!', 'success')
+        return redirect(url_for('auth.signup'))
 
 @auth.route('/vote')
 @login_required
