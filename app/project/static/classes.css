@@ -24,3 +24,12 @@
     margin-left: 10%;
     margin-right: 10%;
   }
+
+  .left-div-content-borders {
+    margin-left: 5%;
+    border-left: 1px dotted grey;
+    border-right: 1px dotted grey;
+    border-top: 1px dotted grey;
+    border-bottom: 1px dotted grey;
+    padding: 2%;
+  }

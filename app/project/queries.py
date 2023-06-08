@@ -1,3 +1,5 @@
+from . import forms, queries, models
+
 def select_winner_songs_last10years(conn):
     cur = conn.cursor()
     sql = """
@@ -25,3 +27,24 @@ def select_winner_by_year(conn, year):
     cur.execute(sql, (year,))
     tuple_resultset = cur.fetchall()
     return tuple_resultset
+
+def user_not_exists(conn, userid):
+    cur = conn.cursor()
+    sql = """SELECT u.userid FROM s.users u WHERE u.userid=%s;"""
+    cur.execute(sql, (userid,))
+    tuple_resultset = cur.fetchall()
+    
+    if len(tuple_resultset) == 0:
+        return True
+    
+    return False
+
+def lookup_user(conn, username):
+    print("Lookup user")
+    cur = conn.cursor()
+    sql = """SELECT userID, password FROM s.users WHERE userName = %s;"""
+    cur.execute(sql, (username,))  
+    res = cur.fetchone()
+    cur.close()
+    return res
+

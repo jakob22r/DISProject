@@ -72,7 +72,7 @@ def login():
             elif user.role == 'customer':
                 mysession["role"] = roles[2] #customer
             else:
-                mysession["role"] = roles[0] #ingen
+                myses.sion["role"] = roles[0] #ingen
 
             mysession["id"] = form.id.data
             print(mysession)
