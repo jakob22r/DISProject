@@ -46,11 +46,11 @@ CREATE TABLE IF NOT EXISTS s.UpcomingYearSongs
 CREATE TABLE IF NOT EXISTS s.Users
     (password VARCHAR(50),
     userName VARCHAR(50),
-    userID VARCHAR(20),
+    userID INTEGER,
     PRIMARY KEY (userID));
 
 CREATE TABLE IF NOT EXISTS s.Votes
-    (userID VARCHAR(20),
+    (userID INTEGER,
     title CHAR(50),
     year INTEGER,
     countryName CHAR(50),

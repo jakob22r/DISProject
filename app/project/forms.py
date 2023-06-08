@@ -7,7 +7,7 @@ class SearchYearForm(FlaskForm):
     submit = SubmitField('Search')
     
 class MemberSignUpForm(FlaskForm):
-    id = StringField('UserId')
+    id = IntegerField('UserId')
     name = StringField('UserName')
     password = PasswordField('Pass')
     submit = SubmitField('Create User')
