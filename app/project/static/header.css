@@ -1,13 +1,19 @@
 ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
-    margin-left: 2%;
-    margin-top: 100px;
+    padding-right: 0%;
+    margin-left: 1%;
+    margin-top: 2%;
+    white-space: nowrap;
 }
 
 li {
     display: inline;
+    margin-right: 10px;
+    border-left: 1px solid black;
+    border-left: 1px solid black;
+    padding-left: 1%;
+    padding-right: 1%;
 }
 
 h1 {
@@ -15,3 +21,7 @@ h1 {
     font-weight: normal;
     margin-top: 5px;
 }
+
+.navbar a{
+    color: black;
+  }

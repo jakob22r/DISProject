@@ -48,6 +48,15 @@ def lookup_user_on_name(conn, username):
     cur.close()
     return res
 
+def lookup_userpw_on_ID(conn, userID):
+    print("Lookup user")
+    cur = conn.cursor()
+    sql = """SELECT password FROM s.users WHERE userID = %s;"""
+    cur.execute(sql, (userID,))  
+    res = cur.fetchone()
+    cur.close()
+    return res
+
 def count_votes(conn):
     cur = conn.cursor()
     sql = """SELECT v.countryName, v.title, COUNT(v.userid)
@@ -134,3 +143,17 @@ def check_userid_and_name_not_taken(conn, id, username):
         return True
     return False
 
+def personal_votes_count(conn, userID):
+    cur = conn.cursor()
+    sql = """SELECT COUNT(userid) FROM s.votes WHERE userid = %s"""
+    cur.execute(sql, (userID,))
+    res = cur.fetchone()
+    cur.close()
+    return res
+
+def update_password(conn, userID, password_hash):
+    cur = conn.cursor()
+    sql = """UPDATE s.users SET password = %s WHERE userID = %s"""
+    cur.execute(sql, (password_hash, userID))
+    conn.commit()
+    cur.close()

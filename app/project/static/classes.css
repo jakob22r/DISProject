@@ -26,6 +26,7 @@
   }
 
   .left-div-content-borders {
+    margin-top: 2%;
     margin-left: 5%;
     border-left: 1px dotted grey;
     border-right: 1px dotted grey;
@@ -33,3 +34,27 @@
     border-bottom: 1px dotted grey;
     padding: 2%;
   }
+
+  .body-color {
+    background-color: #cacae9;
+    color: #510051;
+  }
+ 
+  .left-align {
+    text-align: left;
+}
+
+  .margin-left {  
+    margin-left: 5%;
+}
+  .navbar {
+    top: 0; 
+    width: 100%; 
+    background-color: #B87333;
+    border-bottom: 1px solid black;
+  }
+
+  .navbar a{
+    color: black;
+  }
+

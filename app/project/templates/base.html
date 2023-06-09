@@ -7,22 +7,31 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='classes.css') }}">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
-<body style="overflow-x: hidden;">
-    <div class="margin-top-fixed">
-        <ul>
-            <li><a href="{{ url_for('main.index')}}">Home</a></li>
-            <li><a href="{{ url_for('auth.stats') }}">Stats</a></li>
-            <li><a href="{{url_for('auth.vote')}}">Vote</a></li>
-            <li><a href="{{ url_for('auth.login') }}">Login</a></li>
-            <li><a href="{{ url_for('auth.logout') }}">Logout</a></li>
-            <li><a href="{{ url_for('auth.signup') }}">Sign Up</a></li>
-        </ul>
-    </div>
-    </nav>
-    <hr>
-    <div>
-        {% block content %} {% endblock %}
-    </div>
+
+<body class="body-color" style="overflow-x: hidden;">
+
+        <div class="navbar">
+            <ul>
+                <li><a href="{{ url_for('main.index')}}">Home</a></li>
+                <li><a href="{{ url_for('auth.stats') }}">Stats</a></li>
+                <li><a href="{{url_for('auth.vote')}}">Vote</a></li>
+                <li><a href="{{ url_for('auth.login') }}">Login</a></li>
+                <li><a href="{{ url_for('auth.logout') }}">Logout</a></li>
+                <li><a href="{{ url_for('auth.signup') }}">Sign Up</a></li>
+                <li><a href="{{ url_for('auth.profile') }}">My Profile</a></li>
+            </ul>
+            <p style="text-align: right; padding-right: 2%;">
+                {% if g.user %}
+                    Logged in as: {{ g.user }}
+                {% else %}
+                {% endif %}
+        </p>
+        </div>
+        <div>
+            {% block content %} {% endblock %}
+        </div>
+        
+
 </body>
 </html>
 

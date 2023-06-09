@@ -1,8 +1,17 @@
-from flask import Blueprint, render_template, flash, request, url_for, redirect
+from flask import Blueprint, render_template, flash, request, url_for, redirect, g
 from . import forms, queries as q, models, conn, bcrypt
 from flask_login import login_user, current_user, logout_user, login_required
 
 auth = Blueprint('auth', __name__)
+
+@auth.before_request
+def before_request():
+    user = current_user
+    if user.is_authenticated:
+        g.user = user.get_name()
+    else: 
+        g.user = None
+
 
 @auth.route('/login', methods=['GET','POST'])
 def login():
@@ -19,7 +28,7 @@ def login():
                 user_id = result[0]
                 user = models.User(user_id, username)
                 login_user(user)
-                return redirect(url_for('auth.stats'))
+                return redirect(url_for('auth.profile'))
             else:
                 print("Invalid login")
                 flash('Invalid username or password.', 'danger')
@@ -32,7 +41,7 @@ def login():
 def logout():
     logout_user()
     flash('Logout successful.', 'success')
-    return redirect(url_for('auth.login'))
+    return redirect(url_for('main.index'))
 
 
 @auth.route('/signup', methods=['GET', 'POST'])
@@ -108,3 +117,31 @@ def stats():
             return render_template('stats.html', winner_tups=winners, null_tups=null_p, form=form, qrs=winner_year_x)
 
     return render_template('stats.html', winner_tups=winners, null_tups=null_p, form=form)
+
+@auth.route('/profile', methods=('GET', 'POST'))
+@login_required
+def profile():
+    form = forms.ChangePasswordForm()
+    userID = current_user.get_id()
+    username = current_user.get_name()
+    personal_votes = q.personal_votes_count(conn, userID)
+
+    #To change the users password
+    if request.method == 'POST':
+
+        #Check current password is correct
+        old_password = form.old_password.data
+        result = q.lookup_userpw_on_ID(conn, userID)
+        currentpw_ok = bcrypt.check_password_hash(result[0], old_password)
+
+        if form.validate_on_submit() and currentpw_ok:
+            #Hash new password
+            userID = current_user.get_id()
+            new_password = form.new_password.data
+            hashed_password = bcrypt.generate_password_hash(new_password).decode('utf-8')
+            q.update_password(conn, userID, hashed_password)
+            flash("Password has successfully been updated")
+        else:
+            flash("New passwords must match!")
+
+    return render_template('profile.html', form=form, user=username, votes = personal_votes)

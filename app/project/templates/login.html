@@ -4,30 +4,26 @@
 
 {% block content %}
     <div class="row">
-        <div class="col-sm-6">
+        <div class="col-sm-4">
             <div class="left-div-content-borders">
                 <h1>Login</h1>
-                <form method="POST" action="/login">
+                <form method="POST" action="/login" style="text-align:right">
                     {{ form.hidden_tag() }}
                     {{ form.username.label }} {{ form.username(size=20) }}<br>
                     {{ form.password.label }} {{ form.password(size=20) }}<br>
                     <input type="submit" value="login">
+                    <div>
+                        <br>
+                        {% with messages = get_flashed_messages() %}
+                        {% if messages %}
+                            <p>{{messages[0]}}</p>
+                        {% endif %}
+                        {% endwith %}
+                    </div>
             </div>
             </form>
         </div>
-        <div class="col-sm-6">
-        </div>
-    </div>
-   
-    <div class="row">
-        <div class="col-sm-12">
-            <div>
-                {% with messages = get_flashed_messages() %}
-                {% if messages %}
-                    <p>{{messages[0]}}</p>
-                {% endif %}
-                {% endwith %}
-            </div>
+        <div class="col-sm-8">
         </div>
     </div>
 {% endblock %}
