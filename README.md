@@ -5,6 +5,10 @@ for the Databases and Informations Systems course at UCPH 2023. For the frontend
 # Setup
 
 ## Requirements
+### Prerequisites 
+* Make sure to have postgreSQL installed and working with psql in the command line
+
+### Installing requirements
 Make sure the the modules specified in requirements.txt are installed. To do that run:
 
 >$ pip install -r requirements.txt
@@ -13,11 +17,12 @@ It is recomended to install the requirements in a virtual environments. See http
 for further documentation on virtual environments. 
 
 ## Initializing the database
-1. Navigate to /database.ini and configure your database with the proper settings. Remember to enter your password!
-2. To load data into the database, navigate to the db.init directory and run schema.sql 
+1. Navigate to app/database.ini and configure your database with the proper settings. Remember to enter your password in database.ini
+2. To load data into the database, navigate to the db_init directory and run schema.sql 
 (Note that schema.sql will drop the existing schema 's' if a such exists)
 
-Note that in db_init clean.py is used to re-generate some of the .sql files from the dataset contestants.csv
+Side note: In db_init clean.py is used to re-generate some of the .sql files from the dataset contestants.csv
+The necessary sql has already been generated, and hence it should not be necessary to re-run clean.py
 
 ### Dataset used
 The dataset used in the web application is downloaded from https://github.com/Spijkervet/eurovision-dataset/releases. 
@@ -40,10 +45,10 @@ All pages except the front page are only accessible for members. Either use one 
 
 ### Credentials
 Username | Password
-Emily     hej1234
-Jakob     kodeordet
-Anders    sortKaffe
-test_usr  uis
+* Emily     hej1234
+* Jakob     kodeordet
+* Anders    sortKaffe
+* test_usr  uis
 
 or optionally you can create your own user to interact with the web server. Simply press 'Sign up' on the 'Login' page. 
 From there you have to pick a username and a password, then all features of the web page is available.
