@@ -157,3 +157,7 @@ def update_password(conn, userID, password_hash):
     cur.execute(sql, (password_hash, userID))
     conn.commit()
     cur.close()
+
+def delete_user(conn userID):
+    cur = conn.cursor()
+    

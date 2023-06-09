@@ -55,7 +55,7 @@ CREATE TABLE IF NOT EXISTS s.Votes
     year INTEGER,
     countryName CHAR(50),
     PRIMARY KEY (userID, title, year, countryName),
-    FOREIGN KEY (userID) REFERENCES s.Users,
+    FOREIGN KEY (userID) REFERENCES s.Users ON DELETE CASCADE,
     FOREIGN KEY (title, year, countryName) REFERENCES s.UpcomingYearSongs);
 
 -- Run scripts to insert data into tables

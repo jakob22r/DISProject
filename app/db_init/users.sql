@@ -30,3 +30,4 @@ INSERT INTO s.users(password, userName, userID)
 
 INSERT INTO s.users(password, userName, userID)
 	VALUES ('$2b$12$uoX31b0RThSsNbJaFq1Ble1Xv2.eVV0o67K18LTuauuNhRHgbt896', 'test_usr', 1010);
+    

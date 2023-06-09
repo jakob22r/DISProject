@@ -71,7 +71,6 @@ def vote():
     upTitles = []
     for title in titles:
         upTitles.append((title[0].strip(),"(" + title[1].strip() + ")"))
-    print(upTitles)
 
     form = forms.TitelForm()
     form.dropdown.choices = [title[0].strip() for title in titles]
