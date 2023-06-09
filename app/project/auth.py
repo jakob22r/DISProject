@@ -77,7 +77,7 @@ def vote():
 
     #Get users current votes
     userID = current_user.get_id()
-    my_votes = q.count_my_votes(conn, userID) #q.count_my_votes(conn, userID)
+    my_votes = q.count_my_votes(conn, userID)
 
     if request.method == 'POST':
 
@@ -144,3 +144,13 @@ def profile():
             flash("New passwords must match!")
 
     return render_template('profile.html', form=form, user=username, votes = personal_votes)
+
+@auth.route('/delete', methods=('POST',))
+@login_required
+def delete():
+    if request.method == 'POST':
+        userID = current_user.get_id()
+        q.delete_user(conn, userID)
+        flash("User profile was deleted!")
+        return redirect(url_for('auth.login'))
+

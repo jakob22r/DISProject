@@ -49,7 +49,7 @@ Note that passwords are SHA-256 hashed!
 ## Features and interaction of the web application
 * My profile 
     * See how many songs you have voted for this year
-    * Update your password  
+    * Update your password (Will check that old password is correct, and that new passwords match)
     * Delete your user profile
 
 * Stats
@@ -67,7 +67,8 @@ Note that passwords are SHA-256 hashed!
     * Click the Create user hyperlink
 
 * Create user
-    * Fillout the form to register a new user in the database
+    * Fillout the form to register a new user in the database 
+    (Will check that userId and userName is not already taken)
 
 * Logout
     * Logs the current user profile out
