@@ -1,6 +1,6 @@
 # Overall
 This project includes a web-application for a Eurovision Fanclub, developed using Flask and PostgreSQL 
-for the Databases and Informations Systems course at UCPH 2023. 
+for the Databases and Informations Systems course at UCPH 2023. For the frontend CSS styling, we use Bootstrap.
 
 # Setup
 
@@ -13,9 +13,11 @@ It is recomended to install the requirements in a virtual environments. See http
 for further documentation on virtual environments. 
 
 ## Initializing the database
-1. Navigate to /database.ini and configure your database with the proper settings.
+1. Navigate to /database.ini and configure your database with the proper settings. Remember to enter your password!
 2. To load data into the database, navigate to the db.init directory and run schema.sql 
 (Note that schema.sql will drop the existing schema 's' if a such exists)
+
+Note that in db_init clean.py is used to re-generate some of the .sql files from the dataset contestants.csv
 
 ### Dataset used
 The dataset used in the web application is downloaded from https://github.com/Spijkervet/eurovision-dataset/releases. 
@@ -30,6 +32,7 @@ before the show in Tel Aviv of that year.
 ## Running the web-application
 Host and port for the web server can be configured in run.py.
 To start the web server navigate to the app directory and execute python3 run.py
+The actual project, html, css and routing is located in the subdirectory project
 This will start the web server at the specified host and port. 
 
 ## Login
@@ -47,22 +50,22 @@ From there you have to pick a username and a password, then all features of the 
 Note that passwords are SHA-256 hashed!
 
 ## Features and interaction of the web application
-* My profile 
+* My profile (Only visible in menu bar when logged in)
     * See how many songs you have voted for this year
     * Update your password (Will check that old password is correct, and that new passwords match)
     * Delete your user profile
 
-* Stats
+* Stats (Only accessible when logged in)
     * View the winners of the previous 10 years
     * View the all-time worst song (i.e. songs who got 0 points in the final)
     * Use the search function to query a year and find the Country and song who won that year
 
-* Vote 
+* Vote (Only accessible when logged in)
     * View the votes of the users
     * View what song(s) and country(ies) you have voted on 
     * Cast your own vote for your favourite song. 
 
-* Login
+* Login (Only visible from front page or when not logged in)
     * Login (i.e. authenticate a registered user) with the provided username and password
     * Click the Create user hyperlink
 
@@ -70,7 +73,7 @@ Note that passwords are SHA-256 hashed!
     * Fillout the form to register a new user in the database 
     (Will check that userId and userName is not already taken)
 
-* Logout
+* Logout (Button only visable in top right corner when logged in)
     * Logs the current user profile out
 
 ### Backend SQL

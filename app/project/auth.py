@@ -93,10 +93,7 @@ def vote():
                 flash("Vote added!", 'success')
                 votes = q.count_votes(conn)
                 my_votes = q.count_my_votes(conn, userID)
-    
-                #recalculate the placings after the user at voted
             else: 
-                #render men med besked om du ikke kan stemme på den samme
                 flash("You cannot vote for the same song more than once. Pick another favourite!")
        
     return render_template('vote.html', votes_tups=votes, form=form, my_votes_tups = my_votes)
@@ -141,7 +138,7 @@ def profile():
             q.update_password(conn, userID, hashed_password)
             flash("Password has successfully been updated")
         else:
-            flash("New passwords must match!")
+            flash("New passwords must match or incorrect old password")
 
     return render_template('profile.html', form=form, user=username, votes = personal_votes)
 

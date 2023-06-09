@@ -13,8 +13,8 @@ class CreateUserForm(FlaskForm):
     submit = SubmitField('Create User')
 
 class LoginForm(FlaskForm):
-    username = StringField('userName', validators=[DataRequired()])
-    password = PasswordField('password', validators=[DataRequired()])
+    username = StringField('Username', validators=[DataRequired()])
+    password = PasswordField('Password', validators=[DataRequired()])
     submit = SubmitField('Login')
 
 class TitelForm(FlaskForm):
@@ -22,8 +22,8 @@ class TitelForm(FlaskForm):
     submit = SubmitField('Vote')
 
 class ChangePasswordForm(FlaskForm):
-    old_password = PasswordField('Old password', validators=[DataRequired()], render_kw={"class": "static/left-align"})
-    new_password = PasswordField('New Password', validators=[DataRequired()], render_kw={"class": "left-align"})
+    old_password = PasswordField('Old password', validators=[DataRequired()])
+    new_password = PasswordField('New Password', validators=[DataRequired()])
     confirm_new_password = PasswordField('Confirm New Password', validators=[DataRequired(), 
-        EqualTo('new_password', message='Passwords must match')], render_kw={"class": "static/left-align"})
+        EqualTo('new_password', message='Passwords must match')])
     submit = SubmitField('Apply changes')

@@ -3,9 +3,7 @@ from flask import Flask
 from flask_bcrypt import Bcrypt
 from config import config
 from flask_login import LoginManager
-from . import models, queries as q
-
-# init SQLAlchemy so we can use it later in our models
+from . import models
 
 #Function to connect to postgresql server
 def connect():
@@ -34,18 +32,17 @@ login_manager = LoginManager(app)
 login_manager.login_view = 'auth.login'
 login_manager.login_message_category = 'info'
 
-
+#To check user authentication
 @login_manager.user_loader
 def load_user(user_id):
     cur = conn.cursor()
     cur.execute("SELECT userID, userName FROM s.users WHERE userID=%s;", (user_id,))
-    #cur.execute("SELECT * FROM  s.users")
     result = cur.fetchone()
     cur.close()
 
     if result:
         user_id, username = result
-        #Return object based on ID with the proper attributes, it does not have to be exact same instance
+        #Return object based on ID with the proper attributes, 
         return models.User(user_id, username)
     else:
         return None

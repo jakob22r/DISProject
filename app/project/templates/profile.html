@@ -20,7 +20,7 @@
                     {{ form.old_password.label }} {{ form.old_password(size=20) }}<br>
                     {{ form.new_password.label }} {{ form.new_password(size=20) }}<br>
                     {{ form.confirm_new_password.label }} {{ form.confirm_new_password(size=20) }}<br>
-                    <input type="submit" value="Apply changes">
+                    <input type="submit" class="btn btn-warning" style="color: white;" value="Apply changes">
            
                 <div>
                     <br>
@@ -38,8 +38,8 @@
         <div class="col-sm-4">
             <div class="left-div-content-borders">
                 <h3>Click to delete your user profile</h3>
-                <form method="POST" action="/delete" style="text-align:right">
-                    <button class="btn btn-primary" type="submit">Delete profile</button>
+                <form method="POST" action="/delete" style="text-align:left">
+                    <button class="btn btn-danger" type="submit">Delete profile</button>
                 </form>
                 <div>
         </div>

@@ -15,14 +15,17 @@
                 <li><a href="{{ url_for('main.index')}}">Home</a></li>
                 <li><a href="{{ url_for('auth.stats') }}">Stats</a></li>
                 <li><a href="{{url_for('auth.vote')}}">Vote</a></li>
-                <li><a href="{{ url_for('auth.login') }}">Login</a></li>
-                <li><a href="{{ url_for('auth.logout') }}">Logout</a></li>
-                <li><a href="{{ url_for('auth.signup') }}">Sign Up</a></li>
+                {% if not g.user %}
+                 <li><a href="{{ url_for('auth.login') }}">Login</a></li>
+                {% endif %}
+                {% if g.user %}
                 <li><a href="{{ url_for('auth.profile') }}">My Profile</a></li>
+                {% endif %}
             </ul>
             <p style="text-align: right; padding-right: 2%;">
                 {% if g.user %}
                     Logged in as: {{ g.user }}
+                    <a href="{{ url_for('auth.logout') }}" class="btn btn-warning" style="margin-left: 10px; border: 2px solid black;">Logout</a>
                 {% else %}
                 {% endif %}
         </p>

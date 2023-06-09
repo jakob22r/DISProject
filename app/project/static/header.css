@@ -23,5 +23,16 @@ h1 {
 }
 
 .navbar a{
-    color: black;
+    color: white;
+  }
+
+  .navbar {
+    top: 0; 
+    width: 100%; 
+    background-color: #3495e5;
+    border-bottom: 1px solid black;
+  }
+
+  .navbar ul li {
+      border-color: white; /* Change the color here */
   }

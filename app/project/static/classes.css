@@ -36,8 +36,10 @@
   }
 
   .body-color {
-    background-color: #cacae9;
-    color: #510051;
+    background-color: rgb(202, 132, 232);
+    color: #4f0c4f;
+    background: linear-gradient(rgb(214, 152, 240),rgb(98, 45, 120));
+    min-height: 100vh;
   }
  
   .left-align {
@@ -47,10 +49,14 @@
   .margin-left {  
     margin-left: 5%;
 }
-  .navbar {
-    top: 0; 
-    width: 100%; 
-    background-color: #B87333;
-    border-bottom: 1px solid black;
+
+.btn-border {
+    border: 1px solid black;
   }
+
+.imgs {
+    padding: 5%;
+}
+  
+
 

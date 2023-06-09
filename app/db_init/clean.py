@@ -22,7 +22,6 @@ df['place_final'] = df['place_final'].round().astype(int)
 # Apply the filter to remove rows with two consecutive commas
 all_used_cols = ['year','to_country', 'song', 'place_final', 'points_final', 'performer']
 df = df[all_used_cols]
-df.to_csv("aud.csv", index=False)
 
 #artist
 artist_columns = ['performer']
